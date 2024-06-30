@@ -37,11 +37,11 @@ Es führen viele Urpsürunge zu den Anfängen der Open Source Bewegung. Als Beis
 Von Open Source wird häufig im Zusammenhang mit Software, bei welcher der Quellcode öffentlich zugänglich ist, gesprochen. Je nach [Lizensierung](#lizenzen), kann dieser dann mit mehr oder weniger Anpassungen weiterverbreitet werden.
 
 Open Source bezieht sich dabei nicht ausschliesslich auf Software, bei folgenden weiteren Thematiken findet sie ebenfalls ihren Anklang (Aufzählung nicht abschliessend):
-| Bezeichnung  | Erklärung                                              | Beispiele                                  |
-|--------------|--------------------------------------------------------|--------------------------------------------|
-| Open Content | Inhalte zur kostenlosen Nutzung und Weiterverbreitung. | Wikipedia, Internet Archive, OpenStreetMap |
-| Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte. | Arduino, RISC-V, Tinkerforge |
-
+| Bezeichnung          | Erklärung                                                   | Beispiele                                  |
+|----------------------|-------------------------------------------------------------|--------------------------------------------|
+| Open Content         | Inhalte zur kostenlosen Nutzung und Weiterverbreitung.      | Wikipedia, Internet Archive, OpenStreetMap |
+| Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte.        | Arduino, RISC-V, Tinkerforge               |
+| Open Access          | Öffentlicher Zuganng zu Literatur / Materialen im Internet. | Open Library, 
 
 
 
