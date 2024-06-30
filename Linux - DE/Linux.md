@@ -33,8 +33,16 @@ Da in vielen Linux Lehrbüchern das Thema Open Source meiner Meinung nach zu wen
 
 ### Was ist Open Source und wie ist die Bewegung entstanden?
 Es führen viele Urpsürunge zu den Anfängen der Open Source Bewegung. Als Beispiele nur kurz genannt, die Do-it-yourself Bewegung, welche nach dem Ersten Weltkrieg ihren Aufschwung erlebte, die Hacker-Bewegungen der 1960/1970 Jahre oder Freie-Software-Bewegung der 1980er Jahre.
+
+Von Open Source wird häufig im Zusammenhang mit Software, bei welcher der Quellcode öffentlich zugänglich ist, gesprochen. Je nach [Lizensierung](#lizenzen), kann dieser dann mit mehr oder weniger Anpassungen weiterverbreitet werden.
+
 Open Source bezieht sich dabei nicht ausschliesslich auf Software, bei folgenden weiteren Thematiken findet sie ebenfalls ihren Anklang (Aufzählung nicht abschliessend):
- 
+| Bezeichnung  | Erklärung                                              | Beispiele                                  |
+|--------------|--------------------------------------------------------|--------------------------------------------|
+| Open Content | Inhalte zur kostenlosen Nutzung und Weiterverbreitung. | Wikipedia, Internet Archive, OpenStreetMap |
+| Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte. | Arduino, RISC-V, Tinkerforge |
+
+
 
 
 
