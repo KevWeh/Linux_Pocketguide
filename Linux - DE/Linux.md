@@ -47,18 +47,21 @@ Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den fo
 | Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte.              | Arduino, RISC-V, Tinkerforge                        |
 | Open Access          | Öffentlicher Zugang zu wissenschaftlicher Literatur im Internet.  | arXiv, PubMed Central, Directory of Open Access Journals (DOAJ) |
 
-Die Open Source Bewegung hat ihre Upsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazubeigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das [GNU-Projekt](#gnu-projekt) entstanden ist.
+Die Open Source Bewegung hat ihre Upsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazu beigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das [GNU-Projekt](#gnu-projekt) entstanden ist.
 
 ### Beispiele zu Open Source Anwendungen und Betriebssystemen
-Für Viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Manchmal müssen Abstriche in dem Design der Benutzeroberfläche oder der Funktionen gemacht werden, aber genau dies macht für mich persönlich den Charme von Open-Source-Software aus. Bezüglich Support muss man sich in der Regel keine grossen Sorgen machen, wenn eine genügend grosse Community vorhanden ist, wird man mit etwas Geduld und den passenden Keywords bei Google fündig.
+Für viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Manchmal müssen kleine Abstriche im Design, der Benutzeroberfläche oder den Funktionen gemacht werden, aber genau dies macht für mich persönlich den Charme von Open-Source-Software aus. Bezüglich des Supports muss man sich in der Regel keine grossen Sorgen machen, wenn eine genügend grosse Community vorhanden ist, wird man mit etwas Geduld und den passenden Keywords bei Google fündig.
 
-Anbei ein Vergleich von Closed Source Anwendungen und Betriebssystemen mit ähnlichen oder vergleichbaren Open Source Alternativen:
-| Anwendugs-/OS-Art       | Closed Source                  | Open Source |
-|-------------------------|--------------------------------|-------------|
-| Bildbearbeitung:        | Adobe Photoshop                |  GIMP       |
-| Illustration:           | Adobe Illustrator              | Inkscape    |
-| Betriebssystem (Client):| Microsoft Windows, Apple MacOS | Linux, FreeBSD |
-| Betriebssystem (Server):| Microsoft Windows Server       | Linux          |
+Anbei ein kleiner Vergleich von Closed Source Anwendungen und Betriebssystemen mit ähnlichen oder vergleichbaren Open Source Alternativen:
+| Anwendungs-/OS-Art      | Closed Source                  | Open Source    |
+|-------------------------|--------------------------------|----------------|
+| Bildbearbeitung:        | Adobe Photoshop                | GIMP           |
+| Illustration:           | Adobe Illustrator              | Inkscape       |
+| Betriebssystem (Client):| Microsoft Windows, Apple MacOS | Linux (Ubuntu, Fedora etc.), FreeBSD |
+| Betriebssystem (Server):| Microsoft Windows Server       | Linux (Debian, CentOS etc.)         |
+| Betriebssystem (mobile):| Apple iOS                      | Android (grösstenteils Open Source)|
+| Office Suiten:          | Microsoft Office               | LibreOffice   |
+
 
 
 
@@ -77,4 +80,14 @@ Anbei ein Vergleich von Closed Source Anwendungen und Betriebssystemen mit ähnl
 #### GNU-Projekt:
 #### Lizenzen:
 ## Anhang:
+#### **Quellen:**
+#### **Weiterführende Links:**
+**[ubuntuusers.de:](https://ubuntuusers.de/)** Die Seite ubuntusers.de ist mitlerweile zu meinem täglichen Begleiter geworden. Ich würde es als Allround Werkzeug für die Arbeit mit Linux betiteln. Anders als der Seitentitel erahnen lässt, wird selbstverständlich nicht nur die Distribution Ubunutu behandelt.
 
+youtube
+
+acronis linode
+
+#### **Weiterführende Literatur:**
+#### **Rechtlicher Hinweis:**
+„Alle genannten Marken- und Produktnamen sind Warenzeichen der jeweiligen Unternehmen.“
