@@ -31,23 +31,36 @@ Viel Spass beim Lesen, Nachmachen und Lernen.
 
 Da in vielen Linux-Lehrbüchern das Thema Open Source meiner Meinung nach zu wenig thematisiert wird, möchte ich es an dieser Stelle besser machen und der doch sehr relevanten Angelegenheit das Kapitel 0 widmen.
 
-### Was ist Open Source und wie ist die Bewegung entstanden?
-Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie/kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open Source Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer und bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist, von jeder Person eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden kann.
+### Was bedeuted Open Source?
+Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie/kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open Source Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer und bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist, von der Öffentlichkeit eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden kann.
 
 Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegenteil von Open Source – der Quellcode ist nicht öffentlich zugänglich) nicht existieren:
-- **Transparenz:** Da der Code von der Öffentlichkeit eingesehen und überprüft werden kann, lässt sich sicherstellen, dass keine versteckten Funktionen und Tracking-Mechanismen vorhanden sind. Potenzielle Fehler oder Schwachstellen können schneller entdeckt werden, was wiederum zur allgemeinen Qualitätssicherung beiträgt.
+- **Transparenz:** Da der Code öffentlich zugänglich ist und überprüft werden kann, lässt sich sicherstellen, dass keine versteckten Funktionen und Tracking-Mechanismen vorhanden sind. Potenzielle Fehler oder Schwachstellen können schneller entdeckt werden, was wiederum zur allgemeinen Qualitätssicherung beiträgt.
 - **Sicherheit:** Dadurch, dass der Code von der breiten Masse eingesehen werden kann, können bei einer aktiven Community Sicherheitslücken schneller entdeckt und durch gemeinschaftliche Zusammenarbeit beseitigt werden.
 - **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, wodurch teils hohe Lizenzkosten vermieden werden. Dies ist auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt. Je nach Anwendung oder Betriebssystem muss jedoch berücksichtigt werden, dass dennoch Kosten für Implementierung, Anpassungen, Schulungen und Support anfallen können.
 - **Flexibilität:** Die Benutzer können, entsprechende technische Fähigkeiten und Ressourcen vorausgesetzt, die Software auf ihre eigenen Anwendungsfälle anpassen, optimieren und weiterentwickeln.
 
-Open Source bezieht sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls Anwendung:
+Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls seine Anwendung:
 | Bezeichnung          | Erklärung                                                         | Beispiele                                           |
 |----------------------|-------------------------------------------------------------------|-----------------------------------------------------|
 | Open Content         | Inhalte zur kostenlosen Nutzung und Weiterverbreitung.            | Wikipedia, Internet Archive, OpenStreetMap          |
 | Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte.              | Arduino, RISC-V, Tinkerforge                        |
 | Open Access          | Öffentlicher Zugang zu wissenschaftlicher Literatur im Internet.  | arXiv, PubMed Central, Directory of Open Access Journals (DOAJ) |
 
-Es führen viele Ursprünge zu den Anfängen der Open Source Bewegung. Als Beispiele seien hier die Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, die Hacker-Bewegungen der 1960er/1970er Jahre oder die Freie-Software-Bewegung der 1980er Jahre genannt.
+Die Open Source Bewegung hat ihre Upsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazubeigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das [GNU-Projekt](#gnu-projekt) entstanden ist.
+
+### Beispiele zu Open Source Anwendungen und Betriebssystemen
+Für Viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Manchmal müssen Abstriche in dem Design der Benutzeroberfläche oder der Funktionen gemacht werden, aber genau dies macht für mich persönlich den Charme von Open-Source-Software aus. Bezüglich Support muss man sich in der Regel keine grossen Sorgen machen, wenn eine genügend grosse Community vorhanden ist, wird man mit etwas Geduld und den passenden Keywords bei Google fündig.
+
+Anbei ein Vergleich von Closed Source Anwendungen und Betriebssystemen mit ähnlichen oder vergleichbaren Open Source Alternativen:
+| Anwendugs-/OS-Art       | Closed Source                  | Open Source |
+|-------------------------|--------------------------------|-------------|
+| Bildbearbeitung:        | Adobe Photoshop                |  GIMP       |
+| Illustration:           | Adobe Illustrator              | Inkscape    |
+| Betriebssystem (Client):| Microsoft Windows, Apple MacOS | Linux, FreeBSD |
+| Betriebssystem (Server):| Microsoft Windows Server       | Linux          |
+
+
 
 
 ## Kapitel 1: Einführung in Linux
@@ -61,6 +74,7 @@ Es führen viele Ursprünge zu den Anfängen der Open Source Bewegung. Als Beisp
 ## Kapitel 9: Datensicherung und Wiederherstellung
 ## Kapitel 10: Systemwartung und Troubleshooting
 ## Glossar:
-### Lizenzen:
+#### GNU-Projekt:
+#### Lizenzen:
 ## Anhang:
 
