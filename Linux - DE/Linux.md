@@ -40,6 +40,12 @@ Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegent
 - **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, wodurch teils hohe Lizenzkosten vermieden werden. Dies ist auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt. Je nach Anwendung oder Betriebssystem muss jedoch berücksichtigt werden, dass dennoch Kosten für Implementierung, Anpassungen, Schulungen und Support anfallen können.
 - **Flexibilität:** Die Benutzer können, entsprechende technische Fähigkeiten und Ressourcen vorausgesetzt, die Software auf ihre eigenen Anwendungsfälle anpassen, optimieren und weiterentwickeln.
 
+Nicht alles was glänzt ist Gold. So haben natürlich auch Open Source Software seine Nachteile:
+- **Abhängigkeit der Community:**
+- **Kompatibilität und Integration:**
+- **Verantwortung und Haftung:**
+- **Langfristige Wartung und Weiterentwicklung:**
+
 Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls seine Anwendung:
 | Bezeichnung          | Erklärung                                                         | Beispiele                                           |
 |----------------------|-------------------------------------------------------------------|-----------------------------------------------------|
