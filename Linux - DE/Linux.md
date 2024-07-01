@@ -35,10 +35,10 @@ Da in vielen Linux-Lehrbüchern das Thema Open Source meiner Meinung nach zu wen
 Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie/kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open Source Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer und bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist, von jeder Person eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden kann.
 
 Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegenteil von Open Source – der Quellcode ist nicht öffentlich zugänglich) nicht existieren:
-- **Transparenz:** Da der Code von allen eingesehen und überprüft werden kann, kann sichergestellt werden, dass keine versteckten Funktionen vorhanden sind.
-- **Sicherheit:** Dadurch, dass der Code von der breiten Masse eingesehen werden kann, können Sicherheitslücken schneller entdeckt und durch gemeinschaftliche Zusammenarbeit beseitigt werden.
-- **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, dadurch werden teils hohe Lizenzkosten vermieden. Dies ist mitunter auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt.
-- **Flexibilität:** Die Benutzer können die Software auf ihre eigenen Use Cases anpassen, optimieren und weiterentwickeln.  
+- **Transparenz:** Da der Code von der Öffentlichkeit eingesehen und überprüft werden kann, lässt sich sicherstellen, dass keine versteckten Funktionen und Tracking-Mechanismen vorhanden sind. Potenzielle Fehler oder Schwachstellen können schneller entdeckt werden, was wiederum zur allgemeinen Qualitätssicherung beiträgt.
+- **Sicherheit:** Dadurch, dass der Code von der breiten Masse eingesehen werden kann, können bei einer aktiven Community Sicherheitslücken schneller entdeckt und durch gemeinschaftliche Zusammenarbeit beseitigt werden.
+- **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, wodurch teils hohe Lizenzkosten vermieden werden. Dies ist auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt. Je nach Anwendung oder Betriebssystem muss jedoch berücksichtigt werden, dass dennoch Kosten für Implementierung, Anpassungen, Schulungen und Support anfallen können.
+- **Flexibilität:** Die Benutzer können, entsprechende technische Fähigkeiten und Ressourcen vorausgesetzt, die Software auf ihre eigenen Anwendungsfälle anpassen, optimieren und weiterentwickeln.
 
 Open Source bezieht sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls Anwendung:
 | Bezeichnung          | Erklärung                                                         | Beispiele                                           |
