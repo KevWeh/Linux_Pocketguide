@@ -19,7 +19,7 @@
 14. [Anhang (Quellen, weiterführende Links etc.)](#anhang)
 
 ## Einleitung
-Besten Dank für dein Interesse an diesem Cheatbook. Mein Name ist Kevin und der Einfachheit halber verwende ich die Du-Form. Als grosser Fan von Linux, Open Source Projekten und Werken, die das nötige Wissen kurz und bündig vermitteln, ist es mir ein Anliegen, selbst ein solches Handbuch zu verfassen und auf GitHub zur Verfügung zu stellen.
+Besten Dank für dein Interesse an diesem Cheatbook. Mein Name ist Kevin und der Einfachheit halber verwende ich die Du-Form. Als grosser Fan von Linux, Open-Source-Projekten und Werken, die das nötige Wissen kurz und bündig vermitteln, ist es mir ein Anliegen, selbst ein solches Handbuch zu verfassen und auf GitHub zur Verfügung zu stellen.
 Ich selbst erhebe nicht den Anspruch darauf ein Linux-Profi zu sein (hoffe es aber im Laufe des Schreibens zu werden), also verzeiht mir den einen oder anderen Fehler, der mir unterlaufen wird.
 Viel Spass beim Lesen, Nachmachen und Lernen.
 
@@ -32,7 +32,7 @@ Viel Spass beim Lesen, Nachmachen und Lernen.
 Da in vielen Linux-Lehrbüchern das Thema Open Source meiner Meinung nach zu wenig thematisiert wird, möchte ich es an dieser Stelle besser machen und der doch sehr relevanten Angelegenheit das Kapitel 0 widmen.
 
 ### Was bedeuted Open Source?
-Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie/kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open Source Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer und bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist, von der Öffentlichkeit eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden kann.
+Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie/kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open-Source-Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer und bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist, von der Öffentlichkeit eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden kann.
 
 Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegenteil von Open Source – der Quellcode ist nicht öffentlich zugänglich) nicht existieren:
 - **Transparenz:** Da der Code öffentlich zugänglich ist und überprüft werden kann, lässt sich sicherstellen, dass keine versteckten Funktionen und Tracking-Mechanismen vorhanden sind. Potenzielle Fehler oder Schwachstellen können schneller entdeckt werden, was wiederum zur allgemeinen Qualitätssicherung beiträgt.
@@ -40,11 +40,11 @@ Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegent
 - **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, wodurch teils hohe Lizenzkosten vermieden werden. Dies ist auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt. Je nach Anwendung oder Betriebssystem muss jedoch berücksichtigt werden, dass dennoch Kosten für Implementierung, Anpassungen, Schulungen und Support anfallen können.
 - **Flexibilität:** Die Benutzer können, entsprechende technische Fähigkeiten und Ressourcen vorausgesetzt, die Software auf ihre eigenen Anwendungsfälle anpassen, optimieren und weiterentwickeln.
 
-Nicht alles ist Gold was glänzt. So haben natürlich auch Open Source Software ihre Nachteile:
-- **Abhängigkeit der Community:** Open Source Projekte werden häufig von freiwilligen Entwicklern ohne die Unterstützung einer grösseren Firma im Hintergrund betreut. Natürlich gibt es hier auch Ausnahmen, wie an den Beispielen der Linux Distributionen Ubuntu und Red Hat Enterprise Linux (RHEL), aufgezeigt wird. Bei kleineren Projekten kann dies dazu führen, dass sie auf Grund fehlender Entwickler auch zu einem Sicherheitsrisiko werden. Denn der Quellcode ist öffentlich zugänglich, was potentiellen Angreifern die Möglichkeit gibt Schwachstellen zu entdecken und auszunutzen. Des weiteren sind Dokumentationen unter Umständen nicht so vollständig, wie bei einer Closed Source Software und man ist stärker auf Beiträge der Community angewiesen.
-- **Kompatibilität und Integration:** 
-- **Verantwortung und Haftung:**
-- **Langfristige Wartung und Weiterentwicklung:**
+Nicht alles ist Gold, was glänzt. So hat natürlich auch Open-Source-Software ihre Nachteile:
+- **Abhängigkeit der Community:** Open-Source-Projekte werden häufig von freiwilligen Entwicklern ohne die Unterstützung einer grösseren Firma im Hintergrund betreut. Natürlich gibt es hier auch Ausnahmen, wie an den Beispielen des Linux-Kernel-Projektes oder der Linux Distributionen Ubuntu und Red Hat Enterprise Linux (RHEL), aufgezeigt wird. Bei kleineren Projekten kann dies jedoch dazu führen, dass sie aufgrund fehlender Entwickler auch zu einem Sicherheitsrisiko werden können. Der Quellcode ist öffentlich zugänglich, was potenziellen Angreifern die Möglichkeit gibt, Schwachstellen zu entdecken und auszunutzen. Des Weiteren sind Dokumentationen unter Umständen nicht so vollständig wie bei einer Closed-Source-Software, und man ist stärker auf Beiträge der Community angewiesen.
+- **Kompatibilität und Integration:** Teilweise kann es bei Open-Source-Software kann es teilweise zu Kompatibilitätsproblemen im Zusammenhang mit anderen Softwarelösungen oder Systemen kommen.
+- **Verantwortung und Haftung:** Auf Grund einer fehlenden zentralen Instanz bei Open-Source Projekten, welche Verantwortung übernimmt oder Garantie bietet bei Ausfällen, kann es insbesondere bei kritischen Anwendungsfällen ratsam sein auf eine Closed-Source-Anwendung oder -System zurückzugreifen, bei welcher die Verantwortlichkeiten klarer geregelt sind.
+- **Langfristige Wartung und Weiterentwicklung:** Aufgrund der Abhängigkeit von der Community und den freiwilligen Entwicklern kann es zu Verzögerungen in der Weiterentwicklung oder zum Abbruch des Projekts kommen, wenn wichtige Teilnehmer das Projekt verlassen.
 
 Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls seine Anwendung:
 | Bezeichnung          | Erklärung                                                         | Beispiele                                           |
@@ -68,6 +68,9 @@ Anbei ein kleiner Vergleich von Closed Source Anwendungen und Betriebssystemen m
 | Betriebssystem (mobile):| Apple iOS                      | Android (grösstenteils Open Source)|
 | Office Suiten:          | Microsoft Office               | LibreOffice   |
 
+Weitere bekannte Beispiele für Open-Source-Anwendungen sind der Webbrowser Mozilla Firefox, das E-Mailprogramm Mozilla Thunderbird und der Webbserver Apache.
+
+### Zusammenfassung:
 
 
 
