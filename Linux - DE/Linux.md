@@ -70,13 +70,19 @@ Anbei ein kleiner Vergleich von Closed Source Anwendungen und Betriebssystemen m
 
 Weitere bekannte Beispiele für Open-Source-Anwendungen sind der Webbrowser Mozilla Firefox, das E-Mailprogramm Mozilla Thunderbird und der Webbserver Apache.
 
-### Zusammenfassung:
+### Zusammenfassung
 Das Open Source Konzept zeigt auf, dass mit Hilfe einer engagierten Community grosses geleistet werden kann. Fehler und Schwachstellen können schneller und effizienter entdeckt und behoben werden. Es besteht ausserdem kein grosser Anreiz für Entwickler versteckte Funktionen und Tracking-Mechanismen zu implementieren.  
 Open Source bezieht sich dabei nicht alleine nur auf das Thema Software und findet noch in anderen Gebieten ihre Anwendung. Sollte man einmal nicht zwingend auf eine properitäre Software angewiesen sein, lohnt es sich nach einer Open Source Alternative Ausschau zu halten. 
 
 
 
 ## Kapitel 1: Einführung in Linux
+Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und MacOS auch noch existiert. Dass hinter Linux jedoch nicht nur ein weiteres Betriebssystem steckt und was es mit dem Linux-Kernel-Projekt auf sich hat, möchte ich gerne in diesem Kapitel genauer erläutern.
+
+### Geschichte
+Um die Entstehungsgeschichte des Linux-Kernel-Projektes besser verstehen zu können, müssen wir einige Schritte zurück in die Vergangenheit machen.   
+In den 1960er Jahren entwickelten 
+
 ## Kapitel 2: Installation und Konfiguration
 ## Kapitel 3: Grundlegende Befehle und Navigation
 ## Kapitel 4: Benutzer- und Rechteverwaltung
@@ -89,6 +95,7 @@ Open Source bezieht sich dabei nicht alleine nur auf das Thema Software und find
 ## Glossar:
 #### GNU-Projekt:
 #### Lizenzen:
+
 ## Anhang:
 #### **Quellen:**
 #### **Weiterführende Links:**
