@@ -77,11 +77,17 @@ Open Source bezieht sich dabei nicht alleine nur auf das Thema Software und find
 
 
 ## Kapitel 1: Einführung in Linux
-Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und MacOS auch noch existiert. Dass hinter Linux jedoch nicht nur ein weiteres Betriebssystem steckt und was es mit dem Linux-Kernel-Projekt auf sich hat, möchte ich gerne in diesem Kapitel genauer erläutern.
+Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und MacOS auch noch existiert. Dass hinter Linux jedoch nicht nur ein weiteres Betriebssystem steckt, was es mit dem Linux-Kernel-Projekt und dessen Entwickler Linus Torvalds auf sich hat, möchte ich gerne in diesem Kapitel genauer erläutern.
 
 ### Geschichte
-Um die Entstehungsgeschichte des Linux-Kernel-Projektes besser verstehen zu können, müssen wir einige Schritte zurück in die Vergangenheit machen.   
-In den 1960er Jahren entwickelten 
+Um die Entstehungsgeschichte des Linux-Kernel-Projekts besser zu verstehen, müssen wir einige Jahrzente zurückgehen.   
+
+#### Die Anfänge: Unix und Minix
+In den 1960er Jahren begannen Ken Thompson, Dennis Ritchie, Douglas McIlroy und Joseph Ossanna bei den Bell Labs die Entwicklung des Multiuser-Betriebssystem Unix. Für die damalige Zeit war es ein revolutionäres System und legte den Grundstein für viele zukünftige Betriebssysteme. Es war portabel und lies sich auf verschiedenen Computersystemen implementieren. Dadurch war es bei Universitäten und Entwicklern sehr beliebt. Der Muttergesellschaft der Bell Labs, AT&T, war es zum Zeitpunkt der Entwicklung von Unix verboten neue Märkte wie den Computermarkt zu erschliessen, auf Grund dessen wurden verschiedenen Universitäten das Betriebssystem zu den Kosten des Datenträgers zur Verfügung gestellt. 
+
+In den 1980er Jahren entwickelte Professor Andrew S. Tannenbaum das Unix-ähnliche Betriebssystem Minix. Es wurde mit dem Gedanken entwickelt die Grundlagen eines Betriebssystemes aufzuzeigen. Das Betriebsystem selbst gewann nicht die verdiente Aufmerksamkeit, diente jedoch dem Linux-Kernel-Entwickler Linus Torvalds als Inspiration für die Entwicklung seines eigenen Betriebssystems Linux.
+
+#### 1991: Der Beginn von Linux
 
 ## Kapitel 2: Installation und Konfiguration
 ## Kapitel 3: Grundlegende Befehle und Navigation
