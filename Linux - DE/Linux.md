@@ -90,7 +90,53 @@ In den 1980er Jahren entwickelte Professor Andrew S. Tannenbaum das Unix-ähnlic
 #### 1991: Der Beginn von Linux
 
 ## Kapitel 2: Installation und Konfiguration
+Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen Distributionen entscheiden, teilweise wird einem auch noch auferlegt die Entscheidung zwischen einer Distribution mit oder ohne grafischer Oberfläche (GUI) auszuwählen. Wird auf ein Betriebssystem ohne GUI gesetzt, erfolgt die Ausgabe am Bildschirm in der sogenannten Kommandozeile (CLI). Dabei wird, mit Ausnahme von  Anzeigen von ASCII-Art, auf grafische Darstellungen verzichtet. Im ersten Moment kann dies abschreckend wirken (wie soll man das komplette Betriebssystem nur mit der Kommandozeile bedienen, könnte einem in den Sinn kommen). Stellt man sich jedoch vor, für Aussenstehende wie ein Hacker auszusehen, wirkt dies relativ motivierend und man macht schnell Fortschritte. Der Verzicht der grafischen Darstellungen bringt einige Vorteile mit sich. Die vorhandenen Ressourcen können so rechenintensiven Aufgaben zur Verfügung gestellt werden und müssen nicht für die Anzeige des GUIs zur Verfügung stehen. Ausserdem kann man einiges schneller im Betriebssystem navigieren. Nichts desto trotz ist bei den allermeisten Linux Distributionen mit grafischer Oberfläche selbstverständlich auch ein Terminal installiert, so hat man das Beste erlebnis aus beiden Welten, wenn auch nicht ganz den ressourcensparenden Effekt wie bei einer Version, welche nur über eine CLI verfügt. Ein wichtiger Hinweis noch vorab, das CLI bietet dem Benutzer die Möglichkeit mit dem System über Befehle zu interagieren. Das Programm welche die Befehle verarbeitet ist die sogenannte Shell. Hiervon gibt es unterschiedliche Versionen, welche jeweils eigene Vor- und Nachteile haben. Die am Häufigsten eingesetzte Shell ist dabei die sogenannte Bash (Bourne Again Shell).
+
+In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Distributionen und deren Eigenheiten eingehen.
+
+| Name | Eigenschaften und Eigenheiten | Einsatzbereich | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.) |
+|------|-------------------------------|----------------|-----------------------|-----------------|---------------------|----------------------------|
+|
+
+Gerne möchte ich nachfolgend einige Möglichkeiten vorstellen, wie man Linux erleben und erlernen kann. Dabei gehe ich von der einfachsten zur schwierigsten Möglichkeit vor. Da ich mich persönlich mit Ubuntu am Besten auskenne, zeige ich die jeweiligen Installationstypen an Hand von Ubuntu auf. Jeder Distribution hat ihre Eigenheiten, im Grossen und Ganzen ist der Installationsablauf jedoch ähnlich.
+
+### Express/Einfach:
+Wer jetzt nicht länger warten möchte, dem Empfehle ich die Cloudvariante Linode von Akamai. Neben den vielen Cloudanbietern, welche heutzutage existieren, hat sich Linode auf das Deployment von Linux spezialisiert. Wer nun denkt, dass diese Variante mit hohen Kosten verbunden ist, den kann ich beruhigen. Man erhält ein Startguthaben in der Höhe von $100. Wenn dies aufgebraucht oder abgelaufen ist, belaufen sich die Kosten auf ca. $5 - $15 pro Monat, sofern man sich für eine ressourcensparende Variante entscheidet. Der einzige "Nachteil", wenn man ihn denn so nennen darf, ist dass lediglich Linux Distributionen mit CLI zur Verfügung stehen.
+Zu Beginn muss man sich ein Konto einrichten (evtl. Kreditkarte???)
+Die Verbindung mit der in der Cloud bereitgestellten Linux VM erfolgt folgendermassen:
+
+### Einfach:
+#### Windows:
+Im Jahr 2016 unter Windows 10 hat Microsoft das sogenannte Windows-Subsystem für Linux (WSL) ins Leben gerufen.
+
+##### MacOS:
+Da der Apple Kernel? auf dem Unix System basiert, ist bei den Geräten mit MacOS bereits ein Terminal installiert. Als Shell kommt die so genannte Z shell (zsh) zum Einsatz diese ist jedoch (grösstenteils?) Kompatibel zu der am häufigsten eingesetzten Bash Shell, welche auf den meisten Linux Distributionen als Standard-Shell vorhanden ist. Unter MacOS kann man auf Grund dessen im Betriebssystem gleich navigieren wie unter einer reinen Linux Installation.
+
+### Mittel:
+Mit etwas mehr Aufwand ist die Installation einer Virtuellen Maschine (VM), worauf dann eine Distribution der Wahl installiert werden kann. Bei einer VM kommt ein so genannter Hypervisor zum Einsatz. Dieser gaukelt dem zu installierenden System vor, ein eigener Computer mit eigener Hardware zu sein. Als VM-Software kann ich, nicht nur auf Grund der Open Source Natur der Anwendung, Oracle VM VirtualBox empfehlen. In erster Linie werden wir uns die Installation der VirtualBox anschauen. Im Anschluss erfolgt die Installation von Ubuntu auf der VirtualBox selbst.
+
+### Schwierig:
+Als letztes erfolgt eine Bare Metal ("blankes Metall"). Hierbei erfolgt die Installation des Linux Betriebssystem direkt auf der Hardware. Der Grundsätzliche Installationsprozess unterscheidet sich dabei nicht gross von der Installation auf einer VM. Dennoch gibt es die eine oder andere Eigenheit, welche es zu beachten gilt.
+
 ## Kapitel 3: Grundlegende Befehle und Navigation
+Im nächsten Kapitel behandeln wir die Arbeit in der Kommandozeile. Als Shell kommt dabei Bash zum Einsatz. Eines vorweg, in der Linux CLI gibt es nicht den einen richtigen Weg um eine Aufgabe zu erledigen. Man kann jede Aufgabe auf gefühlt 1'000 unterschiedliche Arten erledigen und kommt dabei zu einem ähnlichen, wenn nicht gar identischen Ergebniss. Daher wird bei den nachfolgenden Befehlen jeweils versucht auch den einen oder anderen Alternativweg aufzuzeigen.
+
+### Befehlsaufbau:
+Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen Befehle erfolgt im nächsten Abschnitt):
+|kompletter Befehl | Befehlsteil | Option | Parameter | besonderes | Erläuterung |
+|------------------|-------------|--------|-----------|------------|-------------|
+
+### Befehle
+#### Die wichtigsten Befehle für die Navigation im System:
+- pwd
+- ls
+- cd
+
+#### Befehle zur Manipulation der Ausgabe:
+- grep
+- awk
+- sed
+
 ## Kapitel 4: Benutzer- und Rechteverwaltung
 ## Kapitel 5: Softwareverwaltung
 ## Kapitel 6: Systemüberwachung und -protokollierung
