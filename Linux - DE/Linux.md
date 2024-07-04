@@ -121,10 +121,14 @@ Als letztes erfolgt eine Bare Metal ("blankes Metall"). Hierbei erfolgt die Inst
 ## Kapitel 3: Grundlegende Befehle und Navigation
 Im nächsten Kapitel behandeln wir die Arbeit in der Kommandozeile. Als Shell kommt dabei Bash zum Einsatz. Eines vorweg, in der Linux CLI gibt es nicht den einen richtigen Weg um eine Aufgabe zu erledigen. Man kann jede Aufgabe auf gefühlt 1'000 unterschiedliche Arten erledigen und kommt dabei zu einem ähnlichen, wenn nicht gar identischen Ergebniss. Daher wird bei den nachfolgenden Befehlen jeweils versucht auch den einen oder anderen Alternativweg aufzuzeigen.
 
+### Wichtiger Hinweis:
+Das Betriebssystem Linux mit seinen sämtlichen Befehlen, ist was die Kommandozeile anbelangt Case Sensitive. Dies bedeutet, dass zwischen Gross- und Kleinschreibung unterschieden wird. Anders als unter Windows und MacOS eventuell angewöhnt, kann es gerade z.B. bei der Suche nach einer Datei auf einem Linux-System dazuführen, dass man die Datei findet oder eben nicht. Daher meine Empfehlung, man sollte sich daran gewöhnen, dass alles klein geschrieben wird, ausser es sei z.B. in einem Skript notwendig die Ausgabe in Gross- und Kleinschreibung anzeigen zu lassen. Der Hinweis bezüglich der Case Sensitivity kommt an dieser Stelle, weil es bei den Befehlen (welche im Übrigen immer klein geschrieben werden), Optionen gibt, welche zu einem komplett anderen Ergebniss führen können, wenn man den jeweiligen Buchstaben klein oder gross schreibt.
+
 ### Befehlsaufbau:
-Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen Befehle erfolgt im nächsten Abschnitt):
-|kompletter Befehl | Befehlsteil | Option | Parameter | besonderes | Erläuterung |
-|------------------|-------------|--------|-----------|------------|-------------|
+Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen Befehlen und Optionen erfolgt im nächsten Abschnitt):
+|kompletter Befehl     | Befehlsteil | Optionen | Parameter  | besonderes | Erläuterung |
+|----------------------|-------------|----------|------------|------------|-------------|
+| `ls -ahlS /etc/usr/` | `ls`        | `-ahlS`  | `/etc/usr/`| -          | `ls` listet den Inhalt auf / als Optionen kommen `-ahlS` zum Einsatz / der Pfad `/etc/usr/` gibt dem Befehl `ls`vor mit welchem Verzeichnis gearbeitet wird | 
 
 ### Befehle
 #### Die wichtigsten Befehle für die Navigation im System:
