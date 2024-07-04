@@ -141,6 +141,10 @@ Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen B
 - awk
 - sed
 
+#### Befehle zur Anzeige/Bearbeitung von Dateien:
+- cat
+- nano
+
 ## Kapitel 4: Benutzer- und Rechteverwaltung
 ## Kapitel 5: Softwareverwaltung
 ## Kapitel 6: Systemüberwachung und -protokollierung
