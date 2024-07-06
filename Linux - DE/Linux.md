@@ -94,9 +94,16 @@ Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen
 
 In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Distributionen und deren Eigenheiten eingehen.
 
-| Name | Eigenschaften und Eigenheiten | Einsatzbereich | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.) |
-|------|-------------------------------|----------------|-----------------------|-----------------|---------------------|----------------------------|
-|
+| Name                             | Eigenschaften und Eigenheiten                                                                                                              | Einsatzbereich   | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.)       |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------|-----------------|---------------------|----------------------------------|
+| Ubuntu                           | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| Debian                           | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| CentOS                           | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| RedHat Enterprise Edition (RHEL) | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| Kali Linux                       | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| Arch                             | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+| Linux Mint                       | eine der bekannsten und am weitverbreitetesten Distributionen, auf Grund dessen grosse Community und online gute Dokumentationen vorhanden | Desktop + Server | Ja                    | dpgk / apt      | sudo apt            | Desktop: GUI + CLI / Server: CLI |
+
 
 Gerne möchte ich nachfolgend einige Möglichkeiten vorstellen, wie man Linux erleben und erlernen kann. Dabei gehe ich von der einfachsten zur schwierigsten Möglichkeit vor. Da ich mich persönlich mit Ubuntu am Besten auskenne, zeige ich die jeweiligen Installationstypen an Hand von Ubuntu auf. Jeder Distribution hat ihre Eigenheiten, im Grossen und Ganzen ist der Installationsablauf jedoch ähnlich.
 
@@ -130,11 +137,33 @@ Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen B
 |----------------------|-------------|----------|------------|------------|-------------|
 | `ls -ahlS /etc/usr/` | `ls`        | `-ahlS`  | `/etc/usr/`| -          | `ls` listet den Inhalt auf / als Optionen kommen `-ahlS` zum Einsatz / der Pfad `/etc/usr/` gibt dem Befehl `ls`vor mit welchem Verzeichnis gearbeitet wird | 
 
+Da häufig mit wiederkehrenden Befehelen gearbeitet wird, kann man jeweils mit der Pfeiltaste nach oben ( ↑ ) die letzten Eingaben erneut aufgerufen werden.
+
 ### Befehle
+#### sudo
+Den Meisten, welche sich etwas mehr als mit der Kenntniss, dass es sich bei Linux um ein Betriebssystem handelt, beschäftigt haben, sollte der Befehlsteil `sudo` (sprich: [`su:du:]) ein Begriff sein. Es stellt die Abkürzung für die Aussage "Super User Do" dar.
+
+Der Befehlspräfix ermöglicht den auf `sudo`nachfolgenden Befehl mit Administratorenrechten auszuführen. Dies ist notwendig, sobald mit Files gearbeitet wird bei welchem man nicht der entsprechende Besitzer oder der entsprechenden Gruppe zugehörig ist. Hierbei spielt jedoch auch die eingestellte Berechtigungsstufe des jeweiligen Files eines Rolle (mehr dazu beim nachfolgenden Befehl `ls`).
+
+Um `sudo`verwenden zu können muss man der Benutzergruppe sudo angehören. Der jeweils erste Benutzer eines Systemes, respektive der Account, welches bei der Installation des Systemes als erstes angelegt wird, ist automatisch der Gruppe sudo zugewiesen. Alle weiteren Konten welche danach angelegt werden, müssen jeweils manuell der sudo Gruppe zugewiesen werden.
+
+Bei der Arbeit im System, wird man jeweils schnell mit der Mitteilung "Permission denied" darauf hingewiesen, sollte man den Befehlsprefix `sudo` vergessen haben anzugeben. Hier noch mein Tipp: Damit man den jeweils letzten Befehl nicht nochnmals komplett eintippen muss, kann man in den meisten Fällen `sudo !!` unterhalb der Meldung "Permission denied" ausführen. Die `!!`-Zeichen weisen das System darauf hin den letzten Befehl nochmals abzurufen.
+
+Nach der Eingabe eines Befehles mit `sudo`wird man jeweils dazu aufgefordert das Passwort seines Accountes anzugeben. Je nach eingestelltem Zeitintervall, müssen bei den nächsten Ausführungen von Befehlen mit zusätzlichen Administratorenrechten kein Passwort mehr übermittelt werden.
+
 #### Die wichtigsten Befehle für die Navigation im System:
 - pwd
 - ls
 - cd
+
+#### Befehle zur Manipulationen von Files:
+- chmod
+- chown
+- chgrp
+
+#### Befehle zur Benutzerverwaltung:
+- adduser
+- addgrp
 
 #### Befehle zur Manipulation der Ausgabe:
 - grep
@@ -144,6 +173,10 @@ Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen B
 #### Befehle zur Anzeige/Bearbeitung von Dateien:
 - cat
 - nano
+
+#### Diverse nützliche Befehel:
+- command -v / Alternative dpkg -l | grep "Paketname"
+- → Verlauf zu letzt verwendete Befehel
 
 ## Kapitel 4: Benutzer- und Rechteverwaltung
 ## Kapitel 5: Softwareverwaltung
