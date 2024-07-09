@@ -1,4 +1,4 @@
-# Linux
+# Linux_Pocketguide
 ### Autor: Kevin Wehrli
 
 ## Inhalt:
