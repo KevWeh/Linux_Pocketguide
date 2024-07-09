@@ -95,15 +95,15 @@ Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen
 
 In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Distributionen und deren Eigenheiten eingehen.
 
-| Name                             | Eigenschaften und Eigenheiten                                                                                                              | Einsatzbereich   | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.)       |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------|-----------------|---------------------|----------------------------------|
-| Ubuntu                           | Eine der bekanntesten und am weitverbreitetsten Distributionen. Grosse Community und online gute Dokumentationen vorhanden.                 | Desktop + Server | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
-| Debian                           | Stabilität und Zuverlässigkeit, Grundlage für viele andere Distributionen (inkl. Ubuntu). Konservative Paketaktualisierungen.                | Desktop + Server | Bedingt               | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
-| CentOS                           | Community-getriebene, kostenlose Version von RHEL. Bekannt für Stabilität und Langzeitunterstützung.                                       | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
-| RedHat Enterprise Edition (RHEL) | Kommerzielle Distribution mit professionellem Support und Zertifizierungen. Fokus auf Unternehmen und deren Anforderungen.                  | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
-| Kali Linux                       | Speziell für Penetrationstests und Sicherheitsanalysen entwickelt. Enthält zahlreiche vorinstallierte Sicherheitstools.                    | Desktop + Server | Nein                  | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
-| Arch                             | Rolling-Release-Modell, sehr anpassbar und schlank. Benutzer müssen viel manuell konfigurieren, daher Lernkurve höher.                      | Desktop          | Nein                  | pacman          | sudo pacman -S      | Desktop: GUI + CLI               |
-| Linux Mint                       | Basierend auf Ubuntu, bietet eine benutzerfreundliche Erfahrung mit Multimedia-Support out-of-the-box.                                      | Desktop          | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI               |
+| Name                             | Eigenschaften und Eigenheiten                                                                                                 | Einsatzbereich   | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.)       |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------|-----------------|---------------------|----------------------------------|
+| Ubuntu                           | Eine der bekanntesten und am weitverbreitetsten Distributionen. Grosse Community und online gute Dokumentationen vorhanden.   | Desktop + Server | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
+| Debian                           | Stabilität und Zuverlässigkeit, Grundlage für viele andere Distributionen (inkl. Ubuntu). Konservative Paketaktualisierungen. | Desktop + Server | Bedingt               | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
+| CentOS                           | Community-getriebene, kostenlose Version von RHEL. Bekannt für Stabilität und Langzeitunterstützung.                          | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
+| RedHat Enterprise Edition (RHEL) | Kommerzielle Distribution mit professionellem Support und Zertifizierungen. Fokus auf Unternehmen und deren Anforderungen.    | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
+| Kali Linux                       | Speziell für Penetrationstests und Sicherheitsanalysen entwickelt. Enthält zahlreiche vorinstallierte Sicherheitstools.       | Desktop + Server | Nein                  | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
+| Arch                             | Rolling-Release-Modell, sehr anpassbar und schlank. Benutzer müssen viel manuell konfigurieren, daher Lernkurve höher.        | Desktop          | Nein                  | pacman          | sudo pacman -S      | Desktop: GUI + CLI               |
+| Linux Mint                       | Basierend auf Ubuntu, bietet eine benutzerfreundliche Erfahrung mit Multimedia-Support out-of-the-box.                        | Desktop          | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI               |
 
 
 
@@ -181,6 +181,7 @@ Nach der Eingabe eines Befehles mit `sudo`wird man jeweils dazu aufgefordert das
 - → Verlauf zu letzt verwendete Befehel
 
 ## Kapitel 4: Benutzer- und Rechteverwaltung
+Da wir uns nun mit einigen der wichtigsten Befehlen, inklusive der ersten Befehle zur Benutzerverwaltung vertraut gemacht haben, möchten wir tiefer in das Thema einsteigen.
 ## Kapitel 5: Softwareverwaltung
 ## Kapitel 6: Systemüberwachung und -protokollierung
 ## Kapitel 7: Netzwerkkonfiguration
