@@ -1,6 +1,7 @@
 # Linux_Pocketguide
 ### Autor: Kevin Wehrli
 
+
 ## Inhalt:
 
 1. [Einleitung](#einleitung)
@@ -202,3 +203,5 @@ acronis linode
 #### **Weiterführende Literatur:**
 #### **Rechtlicher Hinweis:**
 „Alle genannten Marken- und Produktnamen sind Warenzeichen der jeweiligen Unternehmen.“
+
+#### Linux_Pocketguide © 2024 by Kevin Wehrli is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
