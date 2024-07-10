@@ -16,6 +16,7 @@
 10. [Automatisierung und Skripting](#kapitel-8-automatisierung-und-skripting)
 11. [Datensicherung und Wiederherstellung](#kapitel-9-datensicherung-und-wiederherstellung)
 12. [Systemwartung und Troubleshooting](#kapitel-10-systemwartung-und-troubleshooting)
+13. [Weiterbildung und Zertifizierungen](#kapitel-11-weiterbildung-und-zertifizierungen)
 13. [Glossar](#glossar)
 14. [Anhang (Quellen, weiterführende Links etc.)](#anhang)
 
@@ -190,6 +191,7 @@ Da wir uns nun mit einigen der wichtigsten Befehlen, inklusive der ersten Befehl
 ## Kapitel 8: Automatisierung und Skripting
 ## Kapitel 9: Datensicherung und Wiederherstellung
 ## Kapitel 10: Systemwartung und Troubleshooting
+## Kapitel 11: Weiterbildung und Zertifizierungen
 ## Glossar:
 #### GNU-Projekt:
 #### Lizenzen:
