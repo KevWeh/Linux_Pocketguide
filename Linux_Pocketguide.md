@@ -104,6 +104,8 @@ In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Dist
 | Kali Linux                     | Speziell für Penetrationstests und Sicherheitsanalysen entwickelt. Enthält zahlreiche vorinstallierte Sicherheitstools.       | Desktop + Server | Nein                  | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
 | Arch Linux                     | Rolling-Release-Modell, sehr anpassbar und schlank. Benutzer müssen viel manuell konfigurieren, daher Lernkurve höher.        | Desktop          | Nein                  | pacman          | sudo pacman -S      | Desktop: GUI + CLI               |
 | Linux Mint                     | Basierend auf Ubuntu, bietet eine benutzerfreundliche Erfahrung mit Multimedia-Support out-of-the-box.                        | Desktop          | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI               |
+| Fedora                         | Cutting-Edge-Technologien und Innovationen. Community-getrieben, dient oft als Testbett für RHEL.                             | Desktop + Server | Bedingt               | rpm / dnf       | sudo dnf install    | Desktop: GUI + CLI / Server: CLI |
+| openSUSE                       | Zwei Versionen: Leap (stabil, geeignet für Unternehmen) und Tumbleweed (Rolling Release). Yast als zentrales Verwaltungstool. | Desktop + Server | Ja                    | rpm / zypper    | sudo zypper install | Desktop: GUI + CLI / Server: CLI |
 
 
 
