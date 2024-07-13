@@ -93,6 +93,13 @@ Im Jahr 1983 startete Richard Stallman das GNU-Projekt (GNU steht für "GNU's No
 1991 kündigte der finnische Informatikstudent Linus Torvalds die erste Version des Linux-Kernels an. Torvalds war von Minix inspiriert, wollte jedoch ein leistungsfähigeres und flexibleres Betriebssystem schaffen. Der Linux-Kernel, kombiniert mit den GNU-Werkzeugen, ergab ein vollständiges freies und offenes Betriebssystem, das oft als "GNU/Linux" bezeichnet wird. Diese Kombination ermöglichte die Schaffung verschiedener Linux-Distributionen, die mittlerweile weltweit verbreitet und sehr populär sind.
 
 #### Linux heute
+Seit seiner Entstehung im Jahr 1991 hat sich Linux zu einem der weltweit führenden Betriebssysteme entwickelt. Heute gibt es eine Vielzahl von Linux-Distributionen, die für unterschiedliche Zwecke und Zielgruppen optimiert sind, wie Ubuntu, Fedora, Debian und CentOS.
+
+Linux hat sich vor allem im Serverbereich etabliert und ist das bevorzugte Betriebssystem für Webserver, Datenbankserver und andere kritische Infrastrukturen. Mehr als 90% aller Webserver weltweit laufen auf Linux-basierten Systemen. Auch im Bereich der Supercomputer ist Linux führend: Über 90% der weltweit schnellsten Supercomputer laufen unter Linux. Dies liegt an der Flexibilität, Skalierbarkeit und Stabilität des Betriebssystems.
+
+Darüber hinaus hat Linux in den letzten Jahren an Bedeutung im Bereich der eingebetteten Systeme gewonnen, z.B. in Smart-Home-Geräten, Automotive-Systemen und IoT-Geräten. Auch auf dem Desktop gewinnt Linux immer mehr Nutzer, die Wert auf Freiheit, Datenschutz und Anpassbarkeit legen.
+
+Insgesamt ist Linux heute eine vielseitige und weit verbreitete Plattform, die in vielen Technologiebereichen eine entscheidende Rolle spielt.
 
 ### Einsatz von Linux
 ### Bedienungsmöglichkeiten
