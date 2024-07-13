@@ -54,7 +54,7 @@ Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den fo
 | Open-Source-Hardware | Öffentlich einsehbare Baupläne für Hardwareprojekte.              | Arduino, RISC-V, Tinkerforge                        |
 | Open Access          | Öffentlicher Zugang zu wissenschaftlicher Literatur im Internet.  | arXiv, PubMed Central, Directory of Open Access Journals (DOAJ) |
 
-Die Open Source Bewegung hat ihre Urpsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazu beigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das [GNU-Projekt](#gnu-projekt) entstanden ist.
+Die Open Source Bewegung hat ihre Urpsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazu beigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das GNU-Projekt entstanden ist.
 
 ### Beispiele zu Open Source Anwendungen und Betriebssystemen
 Für viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Anbei ein kleiner Vergleich:
@@ -82,11 +82,26 @@ Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und MacO
 Um die Entstehungsgeschichte des Linux-Kernel-Projekts besser zu verstehen, müssen wir einige Jahrzente zurückgehen.   
 
 #### Die Anfänge: Unix und Minix
-In den 1960er Jahren begannen Ken Thompson, Dennis Ritchie, Douglas McIlroy und Joseph Ossanna bei den Bell Labs die Entwicklung des Multiuser-Betriebssystem Unix. Für die damalige Zeit war es ein revolutionäres System und legte den Grundstein für viele zukünftige Betriebssysteme. Es war portabel und liess sich auf verschiedenen Computersystemen implementieren. Dadurch war es bei Universitäten und Entwicklern sehr beliebt. Der Muttergesellschaft der Bell Labs, AT&T, war es zum Zeitpunkt der Entwicklung von Unix verboten neue Märkte wie den Computermarkt zu erschliessen, auf Grund dessen wurden verschiedenen Universitäten das Betriebssystem zu den Kosten des Datenträgers zur Verfügung gestellt. 
+In den 1960er Jahren begannen Ken Thompson, Dennis Ritchie, Douglas McIlroy und Joseph Ossanna bei den Bell Labs die Entwicklung des Multiuser-Betriebssystems Unix. Für die damalige Zeit war es ein revolutionäres System und legte den Grundstein für viele zukünftige Betriebssysteme. Unix war portabel und ließ sich auf verschiedenen Computersystemen implementieren, wodurch es bei Universitäten und Entwicklern sehr beliebt wurde. Der Muttergesellschaft der Bell Labs, AT&T, war es zum Zeitpunkt der Entwicklung von Unix verboten, neue Märkte wie den Computermarkt zu erschliessen. Aus diesem Grund wurde verschiedenen Universitäten das Betriebssystem zu den Kosten des Datenträgers zur Verfügung gestellt.
 
-In den 1980er Jahren entwickelte Professor Andrew S. Tannenbaum das Unix-ähnliche Betriebssystem Minix. Es wurde mit dem Gedanken entwickelt die Grundlagen eines Betriebssystems aufzuzeigen. Das OS selbst gewann nicht die verdiente Aufmerksamkeit, diente jedoch dem Linux-Kernel-Entwickler Linus Torvalds als Inspiration für die Entwicklung seines eigenen Betriebssystems Linux.
+In den 1980er Jahren entwickelte Professor Andrew S. Tanenbaum das Unix-ähnliche Betriebssystem Minix. Es wurde mit dem Ziel entwickelt, die Grundlagen eines Betriebssystems aufzuzeigen. Das Betriebssystem selbst gewann nicht die verdiente Aufmerksamkeit, diente jedoch dem Linux-Kernel-Entwickler Linus Torvalds als Inspiration für die Entwicklung seines eigenen Betriebssystems Linux.
+
+#### 1983: Die Gründung des GNU-Projekts
+Im Jahr 1983 startete Richard Stallman das GNU-Projekt (GNU steht für "GNU's Not Unix") mit dem Ziel, ein komplett freies und offenes Unix-ähnliches Betriebssystem zu entwickeln. Stallman und das GNU-Projekt entwickelten viele essenzielle Systemwerkzeuge und -bibliotheken, darunter der GNU Compiler Collection (GCC), der GNU Debugger (GDB), und die GNU C Library (glibc). Diese Werkzeuge bildeten die Grundlage für ein vollständiges Betriebssystem, allerdings fehlte noch ein freier [Kernel](#kernel).
 
 #### 1991: Der Beginn von Linux
+1991 kündigte der finnische Informatikstudent Linus Torvalds die erste Version des Linux-Kernels an. Torvalds war von Minix inspiriert, wollte jedoch ein leistungsfähigeres und flexibleres Betriebssystem schaffen. Der Linux-Kernel, kombiniert mit den GNU-Werkzeugen, ergab ein vollständiges freies und offenes Betriebssystem, das oft als "GNU/Linux" bezeichnet wird. Diese Kombination ermöglichte die Schaffung verschiedener Linux-Distributionen, die mittlerweile weltweit verbreitet und sehr populär sind.
+
+#### Linux heute
+
+### Einsatz von Linux
+### Bedienungsmöglichkeiten
+#### GUI
+#### CLI
+##### Shell
+### Distributionen
+### Dateizugriff und Berechtigungen
+
 
 ## Kapitel 2: Installation und Konfiguration
 Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen Distributionen entscheiden, teilweise wird einem auch noch auferlegt die Entscheidung zwischen einer Distribution mit oder ohne grafischer Oberfläche (GUI) auszuwählen. Wird auf ein Betriebssystem ohne GUI gesetzt, erfolgt die Ausgabe am Bildschirm in der sogenannten Kommandozeile (CLI). Dabei wird, mit Ausnahme von  Anzeigen von ASCII-Art, auf grafische Darstellungen verzichtet. Im ersten Moment kann dies abschreckend wirken (wie soll man das komplette Betriebssystem nur mit der Kommandozeile bedienen, könnte einem in den Sinn kommen). Stellt man sich jedoch vor, für Aussenstehende wie ein Hacker auszusehen, wirkt dies relativ motivierend und man macht schnell Fortschritte. Der Verzicht der grafischen Darstellungen bringt einige Vorteile mit sich. Die vorhandenen Ressourcen können so rechenintensiven Aufgaben zur Verfügung gestellt werden und müssen nicht für die Anzeige des GUIs zur Verfügung stehen. Ausserdem kann man einiges schneller im Betriebssystem navigieren. Nichts desto trotz ist bei den allermeisten Linux Distributionen mit grafischer Oberfläche selbstverständlich auch ein Terminal installiert, so hat man das Beste erlebnis aus beiden Welten, wenn auch nicht ganz den ressourcensparenden Effekt wie bei einer Version, welche nur über eine CLI verfügt. Ein wichtiger Hinweis noch vorab, das CLI bietet dem Benutzer die Möglichkeit mit dem System über Befehle zu interagieren. Das Programm welche die Befehle verarbeitet ist die sogenannte Shell. Hiervon gibt es unterschiedliche Versionen, welche jeweils eigene Vor- und Nachteile haben. Die am Häufigsten eingesetzte Shell ist dabei die sogenannte Bash (Bourne Again Shell).
@@ -190,7 +205,7 @@ Da wir uns nun mit einigen der wichtigsten Befehlen, inklusive der ersten Befehl
 ## Kapitel 10: Systemwartung und Troubleshooting
 ## Kapitel 11: Weiterbildung und Zertifizierungen
 ## Glossar:
-#### GNU-Projekt:
+#### Kernel:
 #### Lizenzen:
 
 ## Anhang:
