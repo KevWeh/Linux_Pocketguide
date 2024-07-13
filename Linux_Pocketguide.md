@@ -22,7 +22,7 @@
 
 ## Einleitung
 Besten Dank für dein Interesse an diesem Cheatbook. Mein Name ist Kevin und der Einfachheit halber verwende ich die Du-Form. Als grosser Fan von Linux, Open-Source-Projekten und Werken, die das nötige Wissen kurz und bündig vermitteln, ist es mir ein Anliegen, selbst ein solches Handbuch zu verfassen und auf GitHub zur Verfügung zu stellen.
-Ich selbst erhebe nicht den Anspruch darauf ein Linux-Profi zu sein (hoffe es aber im Laufe des Schreibens zu werden), also verzeiht mir den einen oder anderen Fehler, der mir unterlaufen wird.
+Ich selbst erhebe nicht den Anspruch darauf ein Linux-Profi zu sein (hoffe es aber natürlich im Laufe des Schreibens zu werden), also verzeiht mir den einen oder anderen Fehler, der mir unterlaufen wird.
 Viel Spass beim Lesen, Nachmachen und Lernen.
 
 ## Kapitel 0: Open Source
@@ -31,22 +31,21 @@ Viel Spass beim Lesen, Nachmachen und Lernen.
 > 
 > *- Linus Torvalds*
 
-Da in vielen Linux-Lehrbüchern das Thema Open Source meiner Meinung nach zu wenig thematisiert wird, möchte ich es an dieser Stelle besser machen und der doch sehr relevanten Angelegenheit das Kapitel 0 widmen.
+Da in vielen Linux-Lehrbüchern das Thema Open Source meiner Meinung nach zu wenig thematisiert wird, möchte ich es an dieser Stelle anders machen und der doch sehr relevanten Angelegenheit das Kapitel 0 widmen.
 
 ### Was bedeutet Open Source?
-Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe freie und kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open-Source-Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer. Er bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist. Dieser kann von der Öffentlichkeit eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden.
+Wenn man den Begriff Open Source hört, kommen einem häufig die Begriffe kostenlose Software und Linux in den Sinn. Dies ist insofern korrekt, da Open-Source-Software in der Regel kostenlos und Linux ein Open-Source-Projekt ist. Der eigentliche Gedanke hinter Open Source geht jedoch viel tiefer. Er bezieht sich darauf, dass der Quellcode der entsprechenden Software frei zugänglich ist. Dieser kann von der Öffentlichkeit eingesehen und je nach Art der [Lizenzierung](#lizenzen) modifiziert und weiterverbreitet werden.
 
 Dies bringt einige Vorteile mit sich, die bei Closed Source Software (das Gegenteil von Open Source – der Quellcode ist nicht öffentlich zugänglich) nicht existieren:
 - **Transparenz:** Da der Code öffentlich zugänglich ist und überprüft werden kann, lässt sich sicherstellen, dass keine versteckten Funktionen und Tracking-Mechanismen vorhanden sind. Potenzielle Fehler oder Schwachstellen können schneller entdeckt werden, was wiederum zur allgemeinen Qualitätssicherung beiträgt.
-- **Sicherheit:** Dadurch, dass der Code von der breiten Masse eingesehen werden kann, können bei einer aktiven Community Sicherheitslücken schneller entdeckt und durch gemeinschaftliche Zusammenarbeit beseitigt werden.
+- **Sicherheit:** Dadurch, dass der Code von der breiten Masse eingesehen werden kann, können bei einer aktiven Community, Sicherheitslücken schneller entdeckt und durch gemeinschaftliche Zusammenarbeit beseitigt werden.
 - **Kostenersparnis:** Open-Source-Software ist in der Regel kostenlos, wodurch teils hohe Lizenzkosten vermieden werden. Dies ist auch einer der Gründe, weshalb Linux so verbreitet ist und weltweit auf so vielen Servern zum Einsatz kommt. Je nach Anwendung oder Betriebssystem muss jedoch berücksichtigt werden, dass trotzdem Kosten für Implementierung, Anpassungen, Schulungen und Support anfallen können.
 - **Flexibilität:** Die Benutzer können, entsprechende technische Fähigkeiten und Ressourcen vorausgesetzt, die Software auf ihre eigenen Anwendungsfälle anpassen, optimieren und weiterentwickeln.
 
 Nicht alles ist Gold, was glänzt. So hat natürlich auch Open-Source-Software ihre Nachteile:
-- **Abhängigkeit der Community:** Open-Source-Projekte werden oft von freiwilligen Entwicklern ohne Unterstützung grosser Firmen betreut. Ausnahmen wie das Linux-Kernel-Projekt oder die Linux-Distributionen Ubuntu und RHEL zeigen, dass es auch anders geht. Kleinere Projekte können jedoch aufgrund fehlender Entwickler zu Sicherheitsrisiken werden, da der offene Quellcode Angreifern Schwachstellen aufzeigt. Dokumentationen sind oft weniger vollständig als bei Closed-Source-Software, und man ist stärker auf die Community angewiesen.
-- **Kompatibilität und Integration:** Teilweise kann es bei Open-Source-Software kann es teilweise zu Kompatibilitätsproblemen im Zusammenhang mit anderen Softwarelösungen oder Systemen kommen.
-- **Verantwortung und Haftung:** Auf Grund einer fehlenden zentralen Instanz bei Open-Source Projekten, welche Verantwortung übernimmt oder Garantie bietet bei Ausfällen, kann es insbesondere bei kritischen Anwendungsfällen ratsam sein auf eine Closed-Source-Anwendung oder -System zurückzugreifen, bei welcher die Verantwortlichkeiten klarer geregelt sind.
-- **Langfristige Wartung und Weiterentwicklung:** Aufgrund der Abhängigkeit von der Community und den freiwilligen Entwicklern kann es zu Verzögerungen in der Weiterentwicklung oder zum Abbruch des Projekts kommen, wenn wichtige Teilnehmer das Projekt verlassen.
+- **Abhängigkeit der Community:** Aufgrund der Abhängigkeit von der Community und den freiwilligen Entwicklern kann es zu Verzögerungen in der Weiterentwicklung oder zum Abbruch des Projekts kommen, wenn wichtige Teilnehmer das Projekt verlassen. Dies kann unter anderem auch zu einem Sicherheitsrisiko werden, da der Quellcode im Internet frei zugänglich ist und potentielle Angreifer Schwachstellen entdecken und für ihre Zwecke missbrauchen können. Ausserdem ist die Dokumentation oft weniger vollständig als bei Closed-Source-Software, da sie meist von der Community bereitgestellt wird.
+- **Verantwortung und Haftung:** Insbesondere in kritischen Anwendungsfällen kann es ratsam sein, eine Closed-Source-Anwendung einer Open-Source-Alternative vorzuziehen. So hat man eine zentrale Instanz, die im Supportfall kontaktiert werden kann oder bei korrekter Anwendung unter Umständen eine Garantie bietet.
+- **Einschränkungen der Anwendungen:** Manchmal müssen bei Open-Source-Anwendungen gegenüber einer vergleichbaren Closed-Source-Anwendung Abstriche in Bezug auf Aussehen, Benutzerfreundlichkeit oder Funktionalität gemacht werden.
 
 Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den folgenden Bereichen findet der Ansatz ebenfalls seine Anwendung:
 | Bezeichnung          | Erklärung                                                         | Beispiele                                           |
@@ -58,9 +57,7 @@ Open Source beschränkt sich dabei nicht ausschliesslich auf Software. In den fo
 Die Open Source Bewegung hat ihre Urpsrünge in der Do-it-yourself-Bewegung, die nach dem Ersten Weltkrieg ihren Aufschwung erlebte, ebenfalls dazu beigetragen hat die Hacker-Bewegungen der 1960er/1970er Jahre und die Freie-Software-Bewegung der 1980er Jahre, aus welcher das [GNU-Projekt](#gnu-projekt) entstanden ist.
 
 ### Beispiele zu Open Source Anwendungen und Betriebssystemen
-Für viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Manchmal müssen kleine Abstriche im Design, der Benutzeroberfläche oder den Funktionen gemacht werden, aber genau dies macht für mich persönlich den Charme von Open-Source-Software aus. Bezüglich des Supports muss man sich in der Regel keine grossen Sorgen machen, wenn eine genügend grosse Community vorhanden ist, wird man mit etwas Geduld und den passenden Keywords bei Google fündig.
-
-Anbei ein kleiner Vergleich von Closed Source Anwendungen und Betriebssystemen mit ähnlichen oder vergleichbaren Open Source Alternativen:
+Für viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt es heutzutage eine Open Source Alternative. Anbei ein kleiner Vergleich:
 | Anwendungs-/OS-Art      | Closed Source                  | Open Source    |
 |-------------------------|--------------------------------|----------------|
 | Bildbearbeitung:        | Adobe Photoshop                | GIMP           |
