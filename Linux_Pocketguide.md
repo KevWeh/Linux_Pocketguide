@@ -101,24 +101,15 @@ Darüber hinaus hat Linux in den letzten Jahren an Bedeutung im Bereich der eing
 
 Insgesamt ist Linux heute eine vielseitige und weit verbreitete Plattform, die in vielen Technologiebereichen eine entscheidende Rolle spielt.
 
-### Einsatz von Linux
-### Bedienungsmöglichkeiten
-#### GUI
-#### CLI
-##### Shell
 ### Distributionen
-### Dateizugriff und Berechtigungen
+Durch den Open Source Charakter von Linux, wurden zahlreiche Entwickler dazu ermutigt eigenen Abwandlungen für spezifische Einsatzzwecke zu programmieren. Diese Abwandlungen nennt man Distributionen. 
 
-
-## Kapitel 2: Installation und Konfiguration
-Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen Distributionen entscheiden, teilweise wird einem auch noch auferlegt die Entscheidung zwischen einer Distribution mit oder ohne grafischer Oberfläche (GUI) auszuwählen. Wird auf ein Betriebssystem ohne GUI gesetzt, erfolgt die Ausgabe am Bildschirm in der sogenannten Kommandozeile (CLI). Dabei wird, mit Ausnahme von  Anzeigen von ASCII-Art, auf grafische Darstellungen verzichtet. Im ersten Moment kann dies abschreckend wirken (wie soll man das komplette Betriebssystem nur mit der Kommandozeile bedienen, könnte einem in den Sinn kommen). Stellt man sich jedoch vor, für Aussenstehende wie ein Hacker auszusehen, wirkt dies relativ motivierend und man macht schnell Fortschritte. Der Verzicht der grafischen Darstellungen bringt einige Vorteile mit sich. Die vorhandenen Ressourcen können so rechenintensiven Aufgaben zur Verfügung gestellt werden und müssen nicht für die Anzeige des GUIs zur Verfügung stehen. Ausserdem kann man einiges schneller im Betriebssystem navigieren. Nichts desto trotz ist bei den allermeisten Linux Distributionen mit grafischer Oberfläche selbstverständlich auch ein Terminal installiert, so hat man das Beste erlebnis aus beiden Welten, wenn auch nicht ganz den ressourcensparenden Effekt wie bei einer Version, welche nur über eine CLI verfügt. Ein wichtiger Hinweis noch vorab, das CLI bietet dem Benutzer die Möglichkeit mit dem System über Befehle zu interagieren. Das Programm welche die Befehle verarbeitet ist die sogenannte Shell. Hiervon gibt es unterschiedliche Versionen, welche jeweils eigene Vor- und Nachteile haben. Die am Häufigsten eingesetzte Shell ist dabei die sogenannte Bash (Bourne Again Shell).
-
-In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Distributionen und deren Eigenheiten eingehen.
+In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Distributionen im Desktop- und Serverbereich eingehen:
 
 | Name                           | Eigenschaften und Eigenheiten                                                                                                 | Einsatzbereich   | Für Anfänger geeignet | Paketmanagement | Installationsbefehl | Oberfläche (GUI, CLI etc.)       |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------|-----------------|---------------------|----------------------------------|
-| Ubuntu                         | Eine der bekanntesten und am weitverbreitetsten Distributionen. Grosse Community und online gute Dokumentationen vorhanden.   | Desktop + Server | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
 | Debian                         | Stabilität und Zuverlässigkeit, Grundlage für viele andere Distributionen (inkl. Ubuntu). Konservative Paketaktualisierungen. | Desktop + Server | Bedingt               | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
+| Ubuntu                         | Eine der bekanntesten und am weitverbreitetsten Distributionen. Grosse Community und online gute Dokumentationen vorhanden.   | Desktop + Server | Ja                    | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
 | CentOS                         | Community-getriebene, kostenlose Version von RHEL. Bekannt für Stabilität und Langzeitunterstützung.                          | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
 | RedHat Enterprise Linux (RHEL) | Kommerzielle Distribution mit professionellem Support und Zertifizierungen. Fokus auf Unternehmen und deren Anforderungen.    | Server           | Nein                  | rpm / yum       | sudo yum install    | CLI                              |
 | Kali Linux                     | Speziell für Penetrationstests und Sicherheitsanalysen entwickelt. Enthält zahlreiche vorinstallierte Sicherheitstools.       | Desktop + Server | Nein                  | dpkg / apt      | sudo apt install    | Desktop: GUI + CLI / Server: CLI |
@@ -127,7 +118,20 @@ In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Dist
 | Fedora                         | Cutting-Edge-Technologien und Innovationen. Community-getrieben, dient oft als Testbett für RHEL.                             | Desktop + Server | Bedingt               | rpm / dnf       | sudo dnf install    | Desktop: GUI + CLI / Server: CLI |
 | openSUSE                       | Zwei Versionen: Leap (stabil, geeignet für Unternehmen) und Tumbleweed (Rolling Release). Yast als zentrales Verwaltungstool. | Desktop + Server | Ja                    | rpm / zypper    | sudo zypper install | Desktop: GUI + CLI / Server: CLI |
 
+### Bedienungsmöglichkeiten
+Bei der Bedienung des Betriebssystem kommen zwei Hauptarten der Navigation im Betriebssystem zum Einsatz. Die grafische Oberfläche (GUI) oder die Kommandozeile (CLI). Je nach Distribution hat man teilweise die Qual der Wahl, wie man das OS bedienen möchte. 
+Bei der Desktopvariante stehen einem in der Regel immer beide Bedinemöglichkeiten zur Verfügung. In der Serverversion muss man sich meistens mit der Kommandozeile abfinden. Dies soll keinesfalls als abschätzig verstanden werden, da die CLI diverse Vorteile gegenüber des GUI aufweisen. In den nächsten zwei Abschnitten gehen wir genauer darauf ein. 
+#### GUI
+Die grafische Oberfläche, repsektive GUI (Graphical User Interface) ist auf die Bedienung mit Maus und Tastatur ausgelegt. Verzeichnisstrukturen oder Applikationen werden als grafisches Element dargestellt, welches mit einem Mausklick darauf geöffnet werden kann.
+#### CLI
+Die Kommandozeile oder CLI (Command Line Interface) wird ausschliesslich mit der Tastatur bedient. Auf grafische Elemente wird mit Ausnahme von [ASCII-Art](#ascii-art) verzichtet. Dadurch, dass keine grafische Oberfläche dargestellt werden muss, sind die Anforderungen an die Hardwareressourcen für die Bedienung und Darstellung des Betriebssystems deutlich geringer, was insbesondere für den Einsatz auf leistungsschwächerer Hardware (Embedded Systems, IoT Devices etc.) interessant ist. Dennoch werden auch hochperformante Systeme ausschliesslich über die CLI bedient, wodurch die Hardware effizienter für rechenintensive Aufgaben genutzt werden kann. Neben der geringeren Hardwarebelastung ist die Bedienung des Systems über die Kommandozeile, Systemkenntnisse vorausgesetzt, deutlich schneller. Ein Nachteil ist, dass viele Befehle auswendig gelernt/nachgeschlagen werden müssen, was im Falle einer Recherche den Geschwindigkeitsvorteil bei der Bedienung wieder aufheben kann.
+##### Shell
 
+### Dateizugriff und Berechtigungen
+
+
+## Kapitel 2: Installation und Konfiguration
+Bei der Installation von Linux muss man sich nicht nur für eine der zahlreichen Distributionen entscheiden, teilweise wird einem auch noch auferlegt die Entscheidung zwischen einer Distribution mit oder ohne grafischer Oberfläche (GUI) auszuwählen. Wird auf ein Betriebssystem ohne GUI gesetzt, erfolgt die Ausgabe am Bildschirm in der sogenannten Kommandozeile (CLI). Dabei wird, mit Ausnahme von  Anzeigen von ASCII-Art, auf grafische Darstellungen verzichtet. Im ersten Moment kann dies abschreckend wirken (wie soll man das komplette Betriebssystem nur mit der Kommandozeile bedienen, könnte einem in den Sinn kommen). Stellt man sich jedoch vor, für Aussenstehende wie ein Hacker auszusehen, wirkt dies relativ motivierend und man macht schnell Fortschritte. Der Verzicht der grafischen Darstellungen bringt einige Vorteile mit sich. Die vorhandenen Ressourcen können so rechenintensiven Aufgaben zur Verfügung gestellt werden und müssen nicht für die Anzeige des GUIs zur Verfügung stehen. Ausserdem kann man einiges schneller im Betriebssystem navigieren. Nichts desto trotz ist bei den allermeisten Linux Distributionen mit grafischer Oberfläche selbstverständlich auch ein Terminal installiert, so hat man das Beste erlebnis aus beiden Welten, wenn auch nicht ganz den ressourcensparenden Effekt wie bei einer Version, welche nur über eine CLI verfügt. Ein wichtiger Hinweis noch vorab, das CLI bietet dem Benutzer die Möglichkeit mit dem System über Befehle zu interagieren. Das Programm welche die Befehle verarbeitet ist die sogenannte Shell. Hiervon gibt es unterschiedliche Versionen, welche jeweils eigene Vor- und Nachteile haben. Die am Häufigsten eingesetzte Shell ist dabei die sogenannte Bash (Bourne Again Shell).
 
 Gerne möchte ich nachfolgend einige Möglichkeiten vorstellen, wie man Linux erleben und erlernen kann. Dabei gehe ich von der einfachsten zur schwierigsten Möglichkeit vor. Da ich mich persönlich mit Ubuntu am Besten auskenne, zeige ich die jeweiligen Installationstypen an Hand von Ubuntu auf. Jeder Distribution hat ihre Eigenheiten, im Grossen und Ganzen ist der Installationsablauf jedoch ähnlich.
 
@@ -212,6 +216,7 @@ Da wir uns nun mit einigen der wichtigsten Befehlen, inklusive der ersten Befehl
 ## Kapitel 10: Systemwartung und Troubleshooting
 ## Kapitel 11: Weiterbildung und Zertifizierungen
 ## Glossar:
+#### ASCII-Art:
 #### Kernel:
 #### Lizenzen:
 
