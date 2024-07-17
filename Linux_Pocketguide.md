@@ -62,7 +62,7 @@ Für viele Anwendungen und Betriebssystem (OS) mit teils hohen Lizenzkosten gibt
 |-------------------------|--------------------------------|----------------|
 | Bildbearbeitung:        | Adobe Photoshop                | GIMP           |
 | Illustration:           | Adobe Illustrator              | Inkscape       |
-| Betriebssystem (Client):| Microsoft Windows, Apple MacOS | Linux (Ubuntu, Fedora etc.), FreeBSD |
+| Betriebssystem (Client):| Microsoft Windows, Apple macOS | Linux (Ubuntu, Fedora etc.), FreeBSD |
 | Betriebssystem (Server):| Microsoft Windows Server       | Linux (Debian, CentOS etc.)         |
 | Betriebssystem (mobile):| Apple iOS                      | Android (grösstenteils Open Source)|
 | Office Suiten:          | Microsoft Office               | LibreOffice   |
@@ -76,13 +76,13 @@ Open Source bezieht sich dabei nicht alleine nur auf das Thema Software und find
 
 
 ## Kapitel 1: Einführung in Linux
-Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und MacOS auch noch existiert. Dass hinter Linux jedoch nicht nur ein weiteres Betriebssystem steckt, was es mit dem Linux-Kernel-Projekt und dessen Entwickler Linus Torvalds auf sich hat, möchte ich gerne in diesem Kapitel genauer erläutern.
+Für viele ist Linux ein weiteres Betriebssystem, welches neben Windows und macOS auch noch existiert. Dass hinter Linux jedoch nicht nur ein weiteres Betriebssystem steckt, was es mit dem Linux-Kernel-Projekt und dessen Entwickler Linus Torvalds auf sich hat, möchte ich gerne in diesem Kapitel genauer erläutern.
 
 ### Geschichte
 Um die Entstehungsgeschichte des Linux-Kernel-Projekts besser zu verstehen, müssen wir einige Jahrzente zurückgehen.   
 
 #### Die Anfänge: Unix und Minix
-In den 1960er Jahren begannen Ken Thompson, Dennis Ritchie, Douglas McIlroy und Joseph Ossanna bei den Bell Labs die Entwicklung des Multiuser-Betriebssystems Unix. Für die damalige Zeit war es ein revolutionäres System und legte den Grundstein für viele zukünftige Betriebssysteme. Unix war portabel und ließ sich auf verschiedenen Computersystemen implementieren, wodurch es bei Universitäten und Entwicklern sehr beliebt wurde. Der Muttergesellschaft der Bell Labs, AT&T, war es zum Zeitpunkt der Entwicklung von Unix verboten, neue Märkte wie den Computermarkt zu erschliessen. Aus diesem Grund wurde verschiedenen Universitäten das Betriebssystem zu den Kosten des Datenträgers zur Verfügung gestellt.
+In den 1960er Jahren begannen Ken Thompson, Dennis Ritchie, Douglas McIlroy und Joseph Ossanna bei den Bell Labs die Entwicklung des Multiuser-Betriebssystems Unix. Für die damalige Zeit war es ein revolutionäres System und legte den Grundstein für viele zukünftige Betriebssysteme. Unix war portabel und liess sich auf verschiedenen Computersystemen implementieren, wodurch es bei Universitäten und Entwicklern sehr beliebt wurde. Der Muttergesellschaft der Bell Labs, AT&T, war es zum Zeitpunkt der Entwicklung von Unix verboten, neue Märkte wie den Computermarkt zu erschliessen. Aus diesem Grund wurde verschiedenen Universitäten das Betriebssystem zu den Kosten des Datenträgers zur Verfügung gestellt.
 
 In den 1980er Jahren entwickelte Professor Andrew S. Tanenbaum das Unix-ähnliche Betriebssystem Minix. Es wurde mit dem Ziel entwickelt, die Grundlagen eines Betriebssystems aufzuzeigen. Das Betriebssystem selbst gewann nicht die verdiente Aufmerksamkeit, diente jedoch dem Linux-Kernel-Entwickler Linus Torvalds als Inspiration für die Entwicklung seines eigenen Betriebssystems Linux.
 
@@ -120,15 +120,21 @@ In der nachfolgenden Tabelle möchte ich etwas genauer auf die bekanntesten Dist
 
 
 ### Bedienungsmöglichkeiten
-Bei der Bedienung des Betriebssystem kommen zwei Hauptarten der Navigation im Betriebssystem zum Einsatz. Die grafische Oberfläche (GUI) oder die Kommandozeile (CLI). Je nach Distribution hat man teilweise die Qual der Wahl, wie man das OS bedienen möchte. 
-Bei der Desktopvariante stehen einem in der Regel immer beide Bedinemöglichkeiten zur Verfügung. In der Serverversion muss man sich meistens mit der Kommandozeile abfinden. Dies soll keinesfalls als abschätzig verstanden werden, da die CLI diverse Vorteile gegenüber des GUI aufweisen. In den nächsten zwei Abschnitten gehen wir genauer darauf ein. 
+Bei der Bedienung des Betriebssystems kommen zwei Hauptarten der Navigation im Betriebssystem zum Einsatz: die grafische Oberfläche (GUI) und die Kommandozeile (CLI). Je nach Distribution hat man teilweise die Qual der Wahl, wie man das OS bedienen möchte. Bei der Desktopvariante stehen einem in der Regel immer beide Bedienmöglichkeiten zur Verfügung. In der Serverversion muss man sich meistens mit der Kommandozeile abfinden. Dies soll keinesfalls abschätzig verstanden werden, da die CLI diverse Vorteile gegenüber der GUI aufweist. In den nächsten zwei Abschnitten gehen wir genauer darauf ein. 
 #### GUI
-Die grafische Oberfläche, repsektive GUI (Graphical User Interface) ist auf die Bedienung mit Maus und Tastatur ausgelegt. Verzeichnisstrukturen oder Applikationen werden als grafisches Element dargestellt, welches mit einem Mausklick darauf geöffnet werden kann.
+Die grafische Oberfläche, respektive GUI (Graphical User Interface), ist auf die Bedienung mit Maus und Tastatur ausgelegt. Verzeichnisstrukturen oder Applikationen werden als grafische Elemente dargestellt, die mit einem Mausklick geöffnet werden können. Die Bedienung unterscheidet sich in diesem Sinne nicht von einem macOS- oder Windows-Betriebssystem. Für Linux-Neulinge stellt dies eine kleinere Hürde dar als die Arbeit mit einem CLI-only-Betriebssystem.
 #### CLI
-Die Kommandozeile oder CLI (Command Line Interface) wird ausschliesslich mit der Tastatur bedient. Auf grafische Elemente wird mit Ausnahme von [ASCII-Art](#ascii-art) verzichtet. Dadurch, dass keine grafische Oberfläche dargestellt werden muss, sind die Anforderungen an die Hardwareressourcen für die Bedienung und Darstellung des Betriebssystems deutlich geringer, was insbesondere für den Einsatz auf leistungsschwächerer Hardware (Embedded Systems, IoT Devices etc.) interessant ist. Dennoch werden auch hochperformante Systeme ausschliesslich über die CLI bedient, wodurch die Hardware effizienter für rechenintensive Aufgaben genutzt werden kann. Neben der geringeren Hardwarebelastung ist die Bedienung des Systems über die Kommandozeile, Systemkenntnisse vorausgesetzt, deutlich schneller. Ein Nachteil ist, dass viele Befehle auswendig gelernt/nachgeschlagen werden müssen, was im Falle einer Recherche den Geschwindigkeitsvorteil bei der Bedienung wieder aufheben kann.
+Die Kommandozeile oder CLI (Command Line Interface) wird ausschliesslich mit der Tastatur bedient. Auf grafische Elemente wird mit Ausnahme von [ASCII-Art](#ascii-art) verzichtet. Da keine grafische Oberfläche dargestellt werden muss, sind die Anforderungen an die Hardwareressourcen für die Bedienung und Darstellung des Betriebssystems deutlich geringer. Dies ist insbesondere für den Einsatz auf leistungsschwächerer Hardware (Embedded Systems, IoT Devices etc.) interessant. Dennoch werden auch hochperformante Systeme ausschliesslich über die CLI bedient, wodurch die Hardware effizienter für rechenintensive Aufgaben genutzt werden kann. Neben der geringeren Hardwarebelastung ist die Bedienung des Systems über die Kommandozeile, Systemkenntnisse vorausgesetzt, deutlich schneller. Ein Nachteil ist, dass viele Befehle auswendig gelernt oder nachgeschlagen werden müssen, was im Falle einer Recherche den Geschwindigkeitsvorteil bei der Bedienung wieder aufheben kann.
 ##### Shell
+Die sogenannte Shell ist das Programm, das auf der Kommandozeile läuft. Die CLI dient in diesem Fall als Eingabewerkzeug, respektive als Anzeige für die von der Shell zur Verfügung gestellten Inhalte. Bei der am häufigsten verwendeten Shell handelt es sich um die Bash-Shell. In der Linux-Welt existieren jedoch noch weitere Shell-Versionen.
 
-### Dateizugriff und Berechtigungen
+- **Bash (Bourne Again Shell):** Die am weitesten verbreitete Shell, welche Scripting, Kommando-Historie und Alias-Einstellungen unterstützt. Bei den meisten Linux-Distributionen ist sie als Standard-Shell bereits vorinstalliert.
+- **Zsh (Z Shell):** Die Zsh ist eine überarbeitete Version der Bash und besitzt erweiterte Funktionen wie bessere Autovervollständigung und Plugin-Systeme. Sie besitzt ebenfalls mehr Anpassungsmöglichkeiten und ist in der Benutzung etwas anwenderfreundlicher. Die Befehle sind grösstenteils kompatibel zur Bash. Unter macOS kommt ebenfalls die Z Shell zum Einsatz.
+- **Fish (Freindly Interactive Shell):** Die Fish hat einen klaren Fokus auf Benutzerfreundlichkeit. Sie besitzt eine verbesserte Syntaxhervorhebung und bietet Vorschläge für Befehle in Echtzeit. Zusätzlich ist die Scripting-Syntax intuitiver als bei anderen Shells.
+
+Neben den oben genannten Shells existieren noch weitere, die jeweils ihre Vorzüge bieten. Sollte man mit der Standard-Shell nicht zufrieden sein, können weitere Shells zusätzlich zu der bestehenden dazuinstalliert werden. In den Konfigurationsdateien des jeweiligen Benutzers muss dann allerdings festgelegt werden, welcher User mit welcher Shell arbeitet.
+
+#### Dateizugriff und Berechtigungen
 
 
 ## Kapitel 2: Installation und Konfiguration
@@ -145,8 +151,8 @@ Die Verbindung mit der in der Cloud bereitgestellten Linux VM erfolgt folgenderm
 #### Windows:
 Im Jahr 2016 unter Windows 10 hat Microsoft das sogenannte Windows-Subsystem für Linux (WSL) ins Leben gerufen.
 
-##### MacOS:
-Da der Apple Kernel? auf dem Unix System basiert, ist bei den Geräten mit MacOS bereits ein Terminal installiert. Als Shell kommt die so genannte Z shell (zsh) zum Einsatz diese ist jedoch (grösstenteils?) Kompatibel zu der am häufigsten eingesetzten Bash Shell, welche auf den meisten Linux Distributionen als Standard-Shell vorhanden ist. Unter MacOS kann man auf Grund dessen im Betriebssystem gleich navigieren wie unter einer reinen Linux Installation.
+##### macOS:
+Da der Apple Kernel? auf dem Unix System basiert, ist bei den Geräten mit macOS bereits ein Terminal installiert. Als Shell kommt die so genannte Z shell (zsh) zum Einsatz diese ist jedoch (grösstenteils?) Kompatibel zu der am häufigsten eingesetzten Bash Shell, welche auf den meisten Linux Distributionen als Standard-Shell vorhanden ist. Unter macOS kann man auf Grund dessen im Betriebssystem gleich navigieren wie unter einer reinen Linux Installation.
 
 ### Mittel:
 Mit etwas mehr Aufwand ist die Installation einer Virtuellen Maschine (VM), worauf dann eine Distribution der Wahl installiert werden kann. Bei einer VM kommt ein so genannter Hypervisor zum Einsatz. Dieser gaukelt dem zu installierenden System vor, ein eigener Computer mit eigener Hardware zu sein. Als VM-Software kann ich, nicht nur auf Grund der Open Source Natur der Anwendung, Oracle VM VirtualBox empfehlen. In erster Linie werden wir uns die Installation der VirtualBox anschauen. Im Anschluss erfolgt die Installation von Ubuntu auf der VirtualBox selbst.
@@ -158,7 +164,7 @@ Als letztes erfolgt eine Bare Metal ("blankes Metall"). Hierbei erfolgt die Inst
 Im nächsten Kapitel behandeln wir die Arbeit in der Kommandozeile. Als Shell kommt dabei Bash zum Einsatz. Eines vorweg, in der Linux CLI gibt es nicht den einen richtigen Weg um eine Aufgabe zu erledigen. Man kann jede Aufgabe auf gefühlt 1'000 unterschiedliche Arten erledigen und kommt dabei zu einem ähnlichen, wenn nicht gar identischen Ergebniss. Daher wird bei den nachfolgenden Befehlen jeweils versucht auch den einen oder anderen Alternativweg aufzuzeigen.
 
 ### Wichtiger Hinweis:
-Das Betriebssystem Linux mit seinen sämtlichen Befehlen, ist was die Kommandozeile anbelangt Case Sensitive. Dies bedeutet, dass zwischen Gross- und Kleinschreibung unterschieden wird. Anders als unter Windows und MacOS eventuell angewöhnt, kann es gerade z.B. bei der Suche nach einer Datei auf einem Linux-System dazuführen, dass man die Datei findet oder eben nicht. Daher meine Empfehlung, man sollte sich daran gewöhnen, dass alles klein geschrieben wird, ausser es sei z.B. in einem Skript notwendig die Ausgabe in Gross- und Kleinschreibung anzeigen zu lassen. Der Hinweis bezüglich der Case Sensitivity kommt an dieser Stelle, weil es bei den Befehlen (welche im Übrigen immer klein geschrieben werden), Optionen gibt, welche zu einem komplett anderen Ergebniss führen können, wenn man den jeweiligen Buchstaben klein oder gross schreibt.
+Das Betriebssystem Linux mit seinen sämtlichen Befehlen, ist was die Kommandozeile anbelangt Case Sensitive. Dies bedeutet, dass zwischen Gross- und Kleinschreibung unterschieden wird. Anders als unter Windows und macOS eventuell angewöhnt, kann es gerade z.B. bei der Suche nach einer Datei auf einem Linux-System dazuführen, dass man die Datei findet oder eben nicht. Daher meine Empfehlung, man sollte sich daran gewöhnen, dass alles klein geschrieben wird, ausser es sei z.B. in einem Skript notwendig die Ausgabe in Gross- und Kleinschreibung anzeigen zu lassen. Der Hinweis bezüglich der Case Sensitivity kommt an dieser Stelle, weil es bei den Befehlen (welche im Übrigen immer klein geschrieben werden), Optionen gibt, welche zu einem komplett anderen Ergebniss führen können, wenn man den jeweiligen Buchstaben klein oder gross schreibt.
 
 ### Befehlsaufbau:
 Linuxbefehle sind wie folgt aufgebaut (eine genauere Erklärung der jeweiligen Befehlen und Optionen erfolgt im nächsten Abschnitt):
