@@ -132,7 +132,9 @@ Die sogenannte Shell ist das Programm, das auf der Kommandozeile läuft. Die CLI
 - **Zsh (Z Shell):** Die Zsh ist eine überarbeitete Version der Bash und besitzt erweiterte Funktionen wie bessere Autovervollständigung und Plugin-Systeme. Sie besitzt ebenfalls mehr Anpassungsmöglichkeiten und ist in der Benutzung etwas anwenderfreundlicher. Die Befehle sind grösstenteils kompatibel zur Bash. Unter macOS kommt ebenfalls die Z Shell zum Einsatz.
 - **Fish (Freindly Interactive Shell):** Die Fish hat einen klaren Fokus auf Benutzerfreundlichkeit. Sie besitzt eine verbesserte Syntaxhervorhebung und bietet Vorschläge für Befehle in Echtzeit. Zusätzlich ist die Scripting-Syntax intuitiver als bei anderen Shells.
 
-Neben den oben genannten Shells existieren noch weitere, die jeweils ihre Vorzüge bieten. Sollte man mit der Standard-Shell nicht zufrieden sein, können weitere Shells zusätzlich zu der bestehenden dazuinstalliert werden. In den Konfigurationsdateien des jeweiligen Benutzers muss dann allerdings festgelegt werden, welcher User mit welcher Shell arbeitet.
+Neben den oben genannten Shells existieren noch weitere, die jeweils ihre eigenen Vorzüge bieten. Wenn gewünscht oder erforderlich, können neben der Standard-Shell, weitere Shells installiert werden. In der Benutzerkonfigurationsdatei, kann jeweils festgelegt werden bei welchem User, welche Shell zum Einsatz kommt.
+
+Auf Grund der grossen Verbreitung, werden wird in den nächsten Kapiteln jeweils mit Bash arbeiten.
 
 #### Dateizugriff und Berechtigungen
 
