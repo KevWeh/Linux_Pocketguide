@@ -101,6 +101,12 @@ Darüber hinaus hat Linux in den letzten Jahren an Bedeutung im Bereich der eing
 
 Insgesamt ist Linux heute eine vielseitige und weit verbreitete Plattform, die in vielen Technologiebereichen eine entscheidende Rolle spielt.
 
+### "Everything is a file."
+Unter Linux wird vom Dateisystem, bis auf ganz wenige Ausnahmen, alles als eine Datei betrachtet. Dies beschränkt sich dabei nicht nur auf gewohnte Dateien wie Dokumente, Fotos und Videos. Sämtliche Geräte, Prozesse und sogar Systemkonfigurationen sind als Dateien im System unter den jeweiligen Verzeichnissen abgelegt. Dies bietet unteranderem den Vorteil, dass die Konfigurationsfiles somit uneingeschränkt bearbeitet werden, wobei je nach Konfigurationsdatei natürlich mit der nötigen Vorsicht vorgegangen werden muss! Anders als eventuell von Windows gewohnt, müssen Linux-Dateien keine Dateiendungen aufweisen. So kann zum Beispiel ein Shell-Skript mit dem Namen "beispiel.sh" bestehen, es könnte jedoch auch einfach nur "beispiel" heissen und würde noch identisch bearbeitet oder ausgeführt werden können.
+
+### Der Linux-Kernel
+Beim Linux-Kernel (Betriebs-/Systemkern) handelt es sich um die unterste oder besser gesagt um die Softwareschicht, welche am nächsten an der Hardware dran ist. Somit besitz er die Möglichkeit direkt mit der Hardware zu komunizieren. Beim Aufstarten des Betriebssystemes, wird der Kernel direkt vom [Bootloader](#bootloader), nach erfolgreichem Bootvorgang angesprochen und aufgestartet. Neben der Kommunikation mit der Hardware verrichtet der Kernel noch unzählige weitere Aufgaben und ist während des ganzen Betriebes des OS am Arbeiten. Zu seinen Hauptaufgaben gehört die Verwaltung der einzelnen Dateien und Prozesse. Da unter Linux das Motto "Everything is a file." gilt, übernimmt der Kernel somit die Verwaltung des kompletten Betriebssystemes.
+
 ### Distributionen
 Durch den Open Source Charakter von Linux, wurden zahlreiche Entwickler dazu ermutigt eigenen Abwandlungen für spezifische Einsatzzwecke zu programmieren. Diese Abwandlungen nennt man Distributionen. 
 
@@ -137,6 +143,7 @@ Neben den oben genannten Shells existieren noch weitere, die jeweils ihre eigene
 Auf Grund der grossen Verbreitung, werden wird in den nächsten Kapiteln jeweils mit Bash arbeiten.
 
 #### Dateizugriff und Berechtigungen
+
 
 
 ## Kapitel 2: Installation und Konfiguration
@@ -226,6 +233,7 @@ Da wir uns nun mit einigen der wichtigsten Befehlen, inklusive der ersten Befehl
 ## Kapitel 11: Weiterbildung und Zertifizierungen
 ## Glossar:
 #### ASCII-Art:
+#### Bootloader:
 #### Kernel:
 #### Lizenzen:
 
