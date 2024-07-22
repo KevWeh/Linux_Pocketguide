@@ -143,7 +143,8 @@ Neben den oben genannten Shells existieren noch weitere, die jeweils ihre eigene
 Aufgrund der grossen Verbreitung werden wir in den nächsten Kapiteln jeweils mit Bash arbeiten.
 
 #### Dateizugriff und Berechtigungen
-Einzelne Objekte oder besser gesagt fast das komplette Betriebssystem bestehen bei Linux bekanntermassen aus Dateien. Damit nicht jeder beliebige User jede beliebige Datei willkürlich bearbeiten oder unter Umständen die Systemstabilität gefährden kann, kommen mehrere Mechanismen zum Einsatz, welche unter anderem Linux den Ruf als sicheres Betriebssystem verschaffen. Einerseits gibt es sogenannte versteckte Dateien, diese sind jeweils am Punkt vor dem Dateinamen (z.B. `.Testfile.txt`) zu erkennen. Mer dazu im nächsten Abschnitt.
+Einzelne Objekte oder besser gesagt fast das komplette Betriebssystem bestehen bei Linux bekanntermassen aus Dateien. Damit nicht jeder beliebige User jede beliebige Datei willkürlich bearbeiten oder unter Umständen die Systemstabilität gefährden kann, kommen mehrere Mechanismen zum Einsatz, welche unter anderem Linux den Ruf als sicheres Betriebssystem verschaffen. Einerseits gibt es sogenannte versteckte Dateien, diese sind jeweils am Punkt vor dem Dateinamen (z.B. `.Testfile.txt`) zu erkennen.
+Desweiteren besitzt jede einzelnen Datei eine individuelle Berechtigung. Um dies genauer erläutern zu können, kommen wir nun zum ersten CLI-Befehl in diesem Pocketguide. Damit wir die individuelle Berechtigung eines Files anzeigen zu können, lautet der Befehl `ls -l`, dabei steht `ls` für **l**i**s**t und wird verwendet um die Dateien im aktuellen Verzeichnis anzuzeigen. Die Option `-l` gibt dem Befehl `ls` die Anweisung die aufgelisteten Files im Langformat darzustellen. Ohne die Option `-l` respektive die Anzeige im Langformat, würden wir die Berechtigungen nicht sehen können.
 
 
 ## Kapitel 2: Installation und Konfiguration
