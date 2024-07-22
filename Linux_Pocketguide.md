@@ -144,7 +144,16 @@ Aufgrund der grossen Verbreitung werden wir in den nächsten Kapiteln jeweils mi
 
 #### Dateizugriff und Berechtigungen
 Einzelne Objekte oder besser gesagt fast das komplette Betriebssystem bestehen bei Linux bekanntermassen aus Dateien. Damit nicht jeder beliebige User jede beliebige Datei willkürlich bearbeiten oder unter Umständen die Systemstabilität gefährden kann, kommen mehrere Mechanismen zum Einsatz, welche unter anderem Linux den Ruf als sicheres Betriebssystem verschaffen. Einerseits gibt es sogenannte versteckte Dateien, diese sind jeweils am Punkt vor dem Dateinamen (z.B. `.Testfile.txt`) zu erkennen.
-Desweiteren besitzt jede einzelnen Datei eine individuelle Berechtigung. Um dies genauer erläutern zu können, kommen wir nun zum ersten CLI-Befehl in diesem Pocketguide. Damit wir die individuelle Berechtigung eines Files anzeigen zu können, lautet der Befehl `ls -l`, dabei steht `ls` für **l**i**s**t und wird verwendet um die Dateien im aktuellen Verzeichnis anzuzeigen. Die Option `-l` gibt dem Befehl `ls` die Anweisung die aufgelisteten Files im Langformat darzustellen. Ohne die Option `-l` respektive die Anzeige im Langformat, würden wir die Berechtigungen nicht sehen können.
+Desweiteren besitzt jede einzelnen Datei eine individuelle Berechtigung. Um dies genauer erläutern zu können, kommen wir nun zum ersten CLI-Befehl in diesem Pocketguide. Damit wir die individuelle Berechtigung eines Files anzeigen zu können, lautet der Befehl `ls -l`, dabei steht `ls` für **l**i**s**t und wird verwendet um die Dateien im aktuellen Verzeichnis anzuzeigen. Die Option `-l` gibt dem Befehl `ls` die Anweisung die aufgelisteten Files im Langformat darzustellen. Ohne die Option `-l` respektive die Anzeige im Langformat, würden wir die Berechtigungen nicht sehen können. Damit das ganze nun etwas bildlicher vorgestellt werden kann, wechseln wir nun zu einem Code-Block:
+```bash
+kevin@linux-server:~$ ls -l
+total 4
+-rwxr-xr-x 1 kevin kevin   95 Jul 23 21:35 Testfile1.txt
+-rwxrwxr-x 1 kevin kevin  165 Jul 23 21:37 Testfile2.txt
+-r-xr--r-- 1 kevin kevin   14 Jul 23 21:41 Testfile3.txt
+drwxr-xr-x 1 kevin kevin 4096 Jul 23 21:48 Testfolder
+```
+
 
 
 ## Kapitel 2: Installation und Konfiguration
