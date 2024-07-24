@@ -173,6 +173,8 @@ Die Berechtigungen können mit dem später noch genauer vorgestellten Befehl `ch
 
 Nun haben wir über Besitzer und Gruppe gesprochen. Bei dem obigen Code-Block wird bei der Auflistung vom Verzeichnisinhalt bei fast allen Dateien `walter walter` angegeben. In diesem Fall handelt es sich beim ersten `walter` um den Besitzer. Wenn ich mit dem User Walter eingeloggt bin und die Datei erstelle, wird hier standardmäßig walter hinterlegt. Da ich als User walter gleichzeitig der Gruppe walter angehöre, steht das zweite `walter` für die Gruppe. Beachtet man nun das `Testfile2.txt`, ist zu erkennen, dass das Dokument im Besitz vom User `walter` ist, jedoch die Gruppenzuweisung auf `white` verweist. Somit haben alle Benutzer, die der Gruppe white zugewiesen sind, dieselben Zugriffsrechte wie der User walter. Der Besitzer oder die zugewiesene Gruppe können jeweils mit den Befehlen `chown` und/oder `chgrp` geändert werden.
 
+### Konfigurationsfiles
+
 
 
 ## Kapitel 2: Installation und Konfiguration
