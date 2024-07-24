@@ -174,7 +174,9 @@ Die Berechtigungen können mit dem später noch genauer vorgestellten Befehl `ch
 Nun haben wir über Besitzer und Gruppe gesprochen. Bei dem obigen Code-Block wird bei der Auflistung vom Verzeichnisinhalt bei fast allen Dateien `walter walter` angegeben. In diesem Fall handelt es sich beim ersten `walter` um den Besitzer. Wenn ich mit dem User Walter eingeloggt bin und die Datei erstelle, wird hier standardmäßig walter hinterlegt. Da ich als User walter gleichzeitig der Gruppe walter angehöre, steht das zweite `walter` für die Gruppe. Beachtet man nun das `Testfile2.txt`, ist zu erkennen, dass das Dokument im Besitz vom User `walter` ist, jedoch die Gruppenzuweisung auf `white` verweist. Somit haben alle Benutzer, die der Gruppe white zugewiesen sind, dieselben Zugriffsrechte wie der User walter. Der Besitzer oder die zugewiesene Gruppe können jeweils mit den Befehlen `chown` und/oder `chgrp` geändert werden.
 
 ### Konfigurationsfiles
+Vieles unter Linux wird mit Hilfe von sogenanten Konfigurationsfiles gesteuert. Dies gilt einerseits für das Betriebssystem selbst, andererseits werden auch nachinstallierte Anwendungen durch diese Configfiles parametriert. Teilweise gibt es schon vorgegebene Konfigurationsdateien, passt man bei diesen nichts an, wird das Programm im Standardmodus betrieben. In anderen Fällen muss die Datei aber auch von Grund auf erstellt werden.
 
+Ein Beispiel bei welchem ein Configfile schon vorgegeben ist, ist die Anwendung `adduser` welche verwendet wird um neue Benutzer unter Ubuntu anzulegen. Ein Exempel, bei welchem überhaupt keine Datei für die Parameter hinterlegt sind, ist z.B. das Mailprogramm `msmtp`.
 
 
 ## Kapitel 2: Installation und Konfiguration
